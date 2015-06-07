@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<muddata>
+    <playerlist>
+        <player name="david" pass="jeff" />
+        <player name="jeff" pass="hooba" />
+        <player name="David" pass="jeff" />
+        <player name="tiac" pass="!mynameismud!" />
+        <player name="Bob" pass="bob" />
+        <player name="billy" pass="nononon" />
+    </playerlist>
+</muddata>

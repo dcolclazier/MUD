@@ -1,0 +1,952 @@
+3/21/2015 16:50:4 - [system] Logs initialized successfully.
+3/21/2015 16:50:4 - [system] Window initialized successfully.
+3/21/2015 16:50:4 - [system] World commands initialized successfully.
+3/21/2015 16:50:4 - [system] World messages initialized successfully.
+3/21/2015 16:50:4 - [system] World channels initialized successfully.
+3/21/2015 16:50:4 - [system] Listen socket initialized successfully.
+3/21/2015 16:50:4 - [system] Heartbeat timer created.
+3/21/2015 16:50:4 - [system] Heartbeat timer set.
+3/21/2015 16:50:4 - [system] Game loop init
+3/21/2015 16:50:57 - [network] Socket connected: 127.0.0.1
+3/21/2015 16:58:46 - [network] Dirty disconnect detected: 127.0.0.1
+3/21/2015 17:4:28 - [system] Logs initialized successfully.
+3/21/2015 17:4:28 - [system] Window initialized successfully.
+3/21/2015 17:4:28 - [system] World commands initialized successfully.
+3/21/2015 17:4:28 - [system] World messages initialized successfully.
+3/21/2015 17:4:28 - [system] World channels initialized successfully.
+3/21/2015 17:4:28 - [system] Listen socket initialized successfully.
+3/21/2015 17:4:28 - [system] Heartbeat timer created.
+3/21/2015 17:4:28 - [system] Heartbeat timer set.
+3/21/2015 17:4:28 - [system] Game loop init
+3/21/2015 17:5:28 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 17:6:34 - [system] Logs initialized successfully.
+3/21/2015 17:6:35 - [system] Window initialized successfully.
+3/21/2015 17:6:35 - [system] World commands initialized successfully.
+3/21/2015 17:6:35 - [system] World messages initialized successfully.
+3/21/2015 17:6:35 - [system] World channels initialized successfully.
+3/21/2015 17:6:35 - [system] Listen socket initialized successfully.
+3/21/2015 17:6:35 - [system] Heartbeat timer created.
+3/21/2015 17:6:35 - [system] Heartbeat timer set.
+3/21/2015 17:6:35 - [system] Game loop init
+3/21/2015 17:7:35 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 17:8:35 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 17:9:35 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 17:10:35 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 17:11:35 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 17:12:35 - [world] World Tick... Uptime: 6 minutes.
+3/21/2015 17:13:31 - [network] Socket connected: 127.0.0.1
+3/21/2015 17:13:38 - [world] World Tick... Uptime: 7 minutes.
+3/21/2015 17:14:38 - [world] World Tick... Uptime: 8 minutes.
+3/21/2015 17:15:38 - [world] World Tick... Uptime: 9 minutes.
+3/21/2015 17:16:23 - [network] Dirty disconnect detected: 127.0.0.1
+3/21/2015 17:16:24 - [network] Socket connected: 127.0.0.1
+3/21/2015 17:16:38 - [world] World Tick... Uptime: 10 minutes.
+3/21/2015 17:17:38 - [world] World Tick... Uptime: 11 minutes.
+3/21/2015 17:18:38 - [world] World Tick... Uptime: 12 minutes.
+3/21/2015 17:19:38 - [world] World Tick... Uptime: 13 minutes.
+3/21/2015 17:20:38 - [world] World Tick... Uptime: 14 minutes.
+3/21/2015 17:21:38 - [world] World Tick... Uptime: 15 minutes.
+3/21/2015 17:22:39 - [world] World Tick... Uptime: 16 minutes.
+3/21/2015 17:23:39 - [world] World Tick... Uptime: 17 minutes.
+3/21/2015 17:24:39 - [world] World Tick... Uptime: 18 minutes.
+3/21/2015 17:25:39 - [world] World Tick... Uptime: 19 minutes.
+3/21/2015 17:26:39 - [world] World Tick... Uptime: 20 minutes.
+3/21/2015 17:27:39 - [world] World Tick... Uptime: 21 minutes.
+3/21/2015 17:35:5 - [system] Logs initialized successfully.
+3/21/2015 17:35:5 - [system] Window initialized successfully.
+3/21/2015 17:35:5 - [system] World commands initialized successfully.
+3/21/2015 17:35:5 - [system] World messages initialized successfully.
+3/21/2015 17:35:5 - [system] World channels initialized successfully.
+3/21/2015 17:35:5 - [system] Listen socket initialized successfully.
+3/21/2015 17:35:5 - [system] Heartbeat timer created.
+3/21/2015 17:35:5 - [system] Heartbeat timer set.
+3/21/2015 17:35:5 - [system] Game loop init
+3/21/2015 17:35:16 - [network] Socket connected: 127.0.0.1
+3/21/2015 17:35:50 - [world] player created: Fido : 127.0.0.1
+3/21/2015 17:36:6 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 17:37:6 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 17:38:6 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 17:39:6 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 17:40:6 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 17:41:6 - [world] World Tick... Uptime: 6 minutes.
+3/21/2015 17:42:6 - [world] World Tick... Uptime: 7 minutes.
+3/21/2015 17:43:6 - [world] World Tick... Uptime: 8 minutes.
+3/21/2015 17:44:6 - [world] World Tick... Uptime: 9 minutes.
+3/21/2015 17:45:6 - [world] World Tick... Uptime: 10 minutes.
+3/21/2015 17:46:6 - [world] World Tick... Uptime: 11 minutes.
+3/21/2015 17:47:7 - [world] World Tick... Uptime: 12 minutes.
+3/21/2015 17:48:7 - [world] World Tick... Uptime: 13 minutes.
+3/21/2015 17:49:7 - [world] World Tick... Uptime: 14 minutes.
+3/21/2015 17:50:7 - [world] World Tick... Uptime: 15 minutes.
+3/21/2015 17:51:7 - [world] World Tick... Uptime: 16 minutes.
+3/21/2015 17:52:7 - [world] World Tick... Uptime: 17 minutes.
+3/21/2015 17:53:7 - [world] World Tick... Uptime: 18 minutes.
+3/21/2015 17:54:7 - [world] World Tick... Uptime: 19 minutes.
+3/21/2015 17:55:7 - [world] World Tick... Uptime: 20 minutes.
+3/21/2015 17:56:7 - [world] World Tick... Uptime: 21 minutes.
+3/21/2015 17:57:7 - [world] World Tick... Uptime: 22 minutes.
+3/21/2015 17:58:7 - [world] World Tick... Uptime: 23 minutes.
+3/21/2015 17:59:12 - [system] Logs initialized successfully.
+3/21/2015 17:59:12 - [system] Window initialized successfully.
+3/21/2015 17:59:12 - [system] World commands initialized successfully.
+3/21/2015 17:59:12 - [system] World messages initialized successfully.
+3/21/2015 17:59:12 - [system] World channels initialized successfully.
+3/21/2015 17:59:12 - [system] Init took:  0.114134
+3/21/2015 17:59:12 - [system] Listen socket initialized successfully.
+3/21/2015 17:59:12 - [system] Heartbeat timer created.
+3/21/2015 17:59:12 - [system] Heartbeat timer set.
+3/21/2015 17:59:12 - [system] Game loop init
+3/21/2015 17:59:15 - [network] Socket connected: 127.0.0.1
+3/21/2015 18:0:12 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 18:1:13 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 18:2:13 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 18:3:13 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 18:4:1 - [system] Logs initialized successfully.
+3/21/2015 18:4:1 - [system] Window initialized successfully.
+3/21/2015 18:4:1 - [system] World commands initialized successfully.
+3/21/2015 18:4:1 - [system] World messages initialized successfully.
+3/21/2015 18:4:1 - [system] World channels initialized successfully.
+3/21/2015 18:4:1 - [system] Init took:  0.145180
+3/21/2015 18:4:1 - [system] Listen socket initialized successfully.
+3/21/2015 18:4:1 - [system] Heartbeat timer created.
+3/21/2015 18:4:1 - [system] Heartbeat timer set.
+3/21/2015 18:4:1 - [system] Game loop init
+3/21/2015 18:4:1 - [network] Socket connected: 127.0.0.1
+3/21/2015 18:4:40 - [system] Logs initialized successfully.
+3/21/2015 18:4:40 - [system] Window initialized successfully.
+3/21/2015 18:4:40 - [system] World commands initialized successfully.
+3/21/2015 18:4:40 - [system] World messages initialized successfully.
+3/21/2015 18:4:40 - [system] World channels initialized successfully.
+3/21/2015 18:4:40 - [system] Init took:  0.112141
+3/21/2015 18:4:40 - [system] Listen socket initialized successfully.
+3/21/2015 18:4:40 - [system] Heartbeat timer created.
+3/21/2015 18:4:40 - [system] Heartbeat timer set.
+3/21/2015 18:4:40 - [system] Game loop init
+3/21/2015 18:4:42 - [network] Socket connected: 127.0.0.1
+3/21/2015 18:5:42 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 18:6:42 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 18:7:42 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 18:8:43 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 18:16:30 - [system] Logs initialized successfully.
+3/21/2015 18:16:30 - [system] Window initialized successfully.
+3/21/2015 18:16:30 - [system] World commands initialized successfully.
+3/21/2015 18:16:30 - [system] World messages initialized successfully.
+3/21/2015 18:16:30 - [system] World channels initialized successfully.
+3/21/2015 18:16:30 - [system] Init took:  0.117136
+3/21/2015 18:16:30 - [system] Listen socket initialized successfully.
+3/21/2015 18:16:30 - [system] Heartbeat timer created.
+3/21/2015 18:16:30 - [system] Heartbeat timer set.
+3/21/2015 18:16:30 - [system] Game loop init
+3/21/2015 18:16:58 - [system] Logs initialized successfully.
+3/21/2015 18:16:58 - [system] Window initialized successfully.
+3/21/2015 18:16:58 - [system] World commands initialized successfully.
+3/21/2015 18:16:58 - [system] World messages initialized successfully.
+3/21/2015 18:16:58 - [system] World channels initialized successfully.
+3/21/2015 18:16:58 - [system] Init took:  0.115134
+3/21/2015 18:16:58 - [system] Listen socket initialized successfully.
+3/21/2015 18:16:58 - [system] Heartbeat timer created.
+3/21/2015 18:16:58 - [system] Heartbeat timer set.
+3/21/2015 18:16:58 - [system] Game loop init
+3/21/2015 18:17:30 - [system] Logs initialized successfully.
+3/21/2015 18:17:30 - [system] Window initialized successfully.
+3/21/2015 18:17:30 - [system] World commands initialized successfully.
+3/21/2015 18:17:30 - [system] World messages initialized successfully.
+3/21/2015 18:17:30 - [system] World channels initialized successfully.
+3/21/2015 18:17:30 - [system] Init took:  0.133166
+3/21/2015 18:17:30 - [system] Listen socket initialized successfully.
+3/21/2015 18:17:30 - [system] Heartbeat timer created.
+3/21/2015 18:17:30 - [system] Heartbeat timer set.
+3/21/2015 18:17:30 - [system] Game loop init
+3/21/2015 18:17:41 - [network] Socket connected: 127.0.0.1
+3/21/2015 18:18:18 - [system] Logs initialized successfully.
+3/21/2015 18:18:18 - [system] Window initialized successfully.
+3/21/2015 18:18:18 - [system] World commands initialized successfully.
+3/21/2015 18:18:18 - [system] World messages initialized successfully.
+3/21/2015 18:18:18 - [system] World channels initialized successfully.
+3/21/2015 18:18:18 - [system] Init took:  0.112141
+3/21/2015 18:18:18 - [system] Listen socket initialized successfully.
+3/21/2015 18:18:18 - [system] Heartbeat timer created.
+3/21/2015 18:18:18 - [system] Heartbeat timer set.
+3/21/2015 18:18:18 - [system] Game loop init
+3/21/2015 18:18:20 - [network] Socket connected: 127.0.0.1
+3/21/2015 18:20:57 - [system] Logs initialized successfully.
+3/21/2015 18:20:58 - [system] Window initialized successfully.
+3/21/2015 18:20:58 - [system] World commands initialized successfully.
+3/21/2015 18:20:58 - [system] World messages initialized successfully.
+3/21/2015 18:20:58 - [system] World channels initialized successfully.
+3/21/2015 18:20:58 - [system] Init took:  0.106133
+3/21/2015 18:20:58 - [system] Listen socket initialized successfully.
+3/21/2015 18:20:58 - [system] Heartbeat timer created.
+3/21/2015 18:20:58 - [system] Heartbeat timer set.
+3/21/2015 18:20:58 - [system] Game loop init
+3/21/2015 18:21:20 - [network] Socket connected: 127.0.0.1
+3/21/2015 18:22:22 - [system] Logs initialized successfully.
+3/21/2015 18:22:22 - [system] Window initialized successfully.
+3/21/2015 18:22:22 - [system] World commands initialized successfully.
+3/21/2015 18:22:22 - [system] World messages initialized successfully.
+3/21/2015 18:22:22 - [system] World channels initialized successfully.
+3/21/2015 18:22:22 - [system] Init took:  0.107131
+3/21/2015 18:22:22 - [system] Listen socket initialized successfully.
+3/21/2015 18:22:22 - [system] Heartbeat timer created.
+3/21/2015 18:22:22 - [system] Heartbeat timer set.
+3/21/2015 18:22:22 - [system] Game loop init
+3/21/2015 18:22:24 - [network] Socket connected: 127.0.0.1
+3/21/2015 18:23:24 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 18:24:24 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 18:24:51 - [system] Logs initialized successfully.
+3/21/2015 18:24:51 - [system] Window initialized successfully.
+3/21/2015 18:24:51 - [system] World commands initialized successfully.
+3/21/2015 18:24:51 - [system] World messages initialized successfully.
+3/21/2015 18:24:51 - [system] World channels initialized successfully.
+3/21/2015 18:24:51 - [system] Init took:  0.116147
+3/21/2015 18:24:51 - [system] Listen socket initialized successfully.
+3/21/2015 18:24:51 - [system] Heartbeat timer created.
+3/21/2015 18:24:51 - [system] Heartbeat timer set.
+3/21/2015 18:24:51 - [system] Game loop init
+3/21/2015 18:24:52 - [network] Socket connected: 127.0.0.1
+3/21/2015 18:25:39 - [system] Logs initialized successfully.
+3/21/2015 18:25:39 - [system] Window initialized successfully.
+3/21/2015 18:25:39 - [system] World commands initialized successfully.
+3/21/2015 18:25:39 - [system] World messages initialized successfully.
+3/21/2015 18:25:39 - [system] World channels initialized successfully.
+3/21/2015 18:25:39 - [system] Init took:  0.115134
+3/21/2015 18:25:39 - [system] Listen socket initialized successfully.
+3/21/2015 18:25:39 - [system] Heartbeat timer created.
+3/21/2015 18:25:39 - [system] Heartbeat timer set.
+3/21/2015 18:25:39 - [system] Game loop init
+3/21/2015 18:25:40 - [network] Socket connected: 127.0.0.1
+3/21/2015 18:26:47 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 18:30:58 - [system] Logs initialized successfully.
+3/21/2015 18:30:58 - [system] Window initialized successfully.
+3/21/2015 18:30:58 - [system] World commands initialized successfully.
+3/21/2015 18:30:58 - [system] World messages initialized successfully.
+3/21/2015 18:30:58 - [system] World channels initialized successfully.
+3/21/2015 18:30:58 - [system] Init took:  0.159200
+3/21/2015 18:30:58 - [system] Listen socket initialized successfully.
+3/21/2015 18:30:58 - [system] Heartbeat timer created.
+3/21/2015 18:30:58 - [system] Heartbeat timer set.
+3/21/2015 18:30:58 - [system] Game loop init
+3/21/2015 18:31:4 - [network] Socket connected: 127.0.0.1
+3/21/2015 18:32:0 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 18:33:0 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 18:34:0 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 18:35:1 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 18:36:1 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 18:37:1 - [world] World Tick... Uptime: 6 minutes.
+3/21/2015 18:38:1 - [world] World Tick... Uptime: 7 minutes.
+3/21/2015 18:38:59 - [system] Logs initialized successfully.
+3/21/2015 18:38:59 - [system] Window initialized successfully.
+3/21/2015 18:38:59 - [system] World commands initialized successfully.
+3/21/2015 18:38:59 - [system] World messages initialized successfully.
+3/21/2015 18:38:59 - [system] World channels initialized successfully.
+3/21/2015 18:38:59 - [system] Init took:  0.109137
+3/21/2015 18:38:59 - [system] Listen socket initialized successfully.
+3/21/2015 18:38:59 - [system] Heartbeat timer created.
+3/21/2015 18:38:59 - [system] Heartbeat timer set.
+3/21/2015 18:38:59 - [system] Game loop init
+3/21/2015 18:39:0 - [network] Socket connected: 127.0.0.1
+3/21/2015 18:40:23 - [system] Logs initialized successfully.
+3/21/2015 18:40:23 - [system] Window initialized successfully.
+3/21/2015 18:40:23 - [system] World commands initialized successfully.
+3/21/2015 18:40:23 - [system] World messages initialized successfully.
+3/21/2015 18:40:23 - [system] World channels initialized successfully.
+3/21/2015 18:40:23 - [system] Init took:  0.144180
+3/21/2015 18:40:23 - [system] Listen socket initialized successfully.
+3/21/2015 18:40:23 - [system] Heartbeat timer created.
+3/21/2015 18:40:23 - [system] Heartbeat timer set.
+3/21/2015 18:40:23 - [system] Game loop init
+3/21/2015 18:40:49 - [system] Logs initialized successfully.
+3/21/2015 18:40:49 - [system] Window initialized successfully.
+3/21/2015 18:40:49 - [system] World commands initialized successfully.
+3/21/2015 18:40:49 - [system] World messages initialized successfully.
+3/21/2015 18:40:49 - [system] World channels initialized successfully.
+3/21/2015 18:40:49 - [system] Init took:  0.137171
+3/21/2015 18:40:49 - [system] Listen socket initialized successfully.
+3/21/2015 18:40:49 - [system] Heartbeat timer created.
+3/21/2015 18:40:49 - [system] Heartbeat timer set.
+3/21/2015 18:40:49 - [system] Game loop init
+3/21/2015 18:40:52 - [network] Socket connected: 127.0.0.1
+3/21/2015 18:42:42 - [system] Logs initialized successfully.
+3/21/2015 18:42:42 - [system] Window initialized successfully.
+3/21/2015 18:42:42 - [system] World commands initialized successfully.
+3/21/2015 18:42:42 - [system] World messages initialized successfully.
+3/21/2015 18:42:42 - [system] World channels initialized successfully.
+3/21/2015 18:42:42 - [system] Init took:  0.129151
+3/21/2015 18:42:42 - [system] Listen socket initialized successfully.
+3/21/2015 18:42:42 - [system] Heartbeat timer created.
+3/21/2015 18:42:42 - [system] Heartbeat timer set.
+3/21/2015 18:42:42 - [system] Game loop init
+3/21/2015 18:42:46 - [network] Socket connected: 127.0.0.1
+3/21/2015 18:43:44 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 18:44:44 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 18:45:44 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 18:46:44 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 18:47:44 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 18:48:46 - [world] World Tick... Uptime: 6 minutes.
+3/21/2015 18:49:27 - [system] Logs initialized successfully.
+3/21/2015 18:49:27 - [system] Window initialized successfully.
+3/21/2015 18:49:27 - [system] World commands initialized successfully.
+3/21/2015 18:49:27 - [system] World messages initialized successfully.
+3/21/2015 18:49:27 - [system] World channels initialized successfully.
+3/21/2015 18:49:27 - [system] Init took:  0.125156
+3/21/2015 18:49:27 - [system] Listen socket initialized successfully.
+3/21/2015 18:49:27 - [system] Heartbeat timer created.
+3/21/2015 18:49:27 - [system] Heartbeat timer set.
+3/21/2015 18:49:27 - [system] Game loop init
+3/21/2015 18:49:28 - [network] Socket connected: 127.0.0.1
+3/21/2015 18:50:30 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 18:51:30 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 18:52:31 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 18:53:34 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 18:54:12 - [system] Logs initialized successfully.
+3/21/2015 18:54:12 - [system] Window initialized successfully.
+3/21/2015 18:54:12 - [system] World commands initialized successfully.
+3/21/2015 18:54:12 - [system] World messages initialized successfully.
+3/21/2015 18:54:12 - [system] World channels initialized successfully.
+3/21/2015 18:54:12 - [system] Init took:  0.112125
+3/21/2015 18:54:13 - [system] Listen socket initialized successfully.
+3/21/2015 18:54:13 - [system] Heartbeat timer created.
+3/21/2015 18:54:13 - [system] Heartbeat timer set.
+3/21/2015 18:54:13 - [system] Game loop init
+3/21/2015 18:54:13 - [network] Socket connected: 127.0.0.1
+3/21/2015 18:55:13 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 18:56:14 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 18:57:14 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 18:57:48 - [system] Logs initialized successfully.
+3/21/2015 18:57:48 - [system] Window initialized successfully.
+3/21/2015 18:57:48 - [system] World commands initialized successfully.
+3/21/2015 18:57:48 - [system] World messages initialized successfully.
+3/21/2015 18:57:48 - [system] World channels initialized successfully.
+3/21/2015 18:57:48 - [system] Init took:  0.121150
+3/21/2015 18:57:48 - [system] Listen socket initialized successfully.
+3/21/2015 18:57:48 - [system] Heartbeat timer created.
+3/21/2015 18:57:48 - [system] Heartbeat timer set.
+3/21/2015 18:57:48 - [system] Game loop init
+3/21/2015 18:57:58 - [network] Socket connected: 127.0.0.1
+3/21/2015 18:58:18 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 18:58:50 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 18:59:36 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:0:9 - [system] Logs initialized successfully.
+3/21/2015 19:0:9 - [system] Window initialized successfully.
+3/21/2015 19:0:9 - [system] World commands initialized successfully.
+3/21/2015 19:0:9 - [system] World messages initialized successfully.
+3/21/2015 19:0:9 - [system] World channels initialized successfully.
+3/21/2015 19:0:9 - [system] Init took:  0.121142
+3/21/2015 19:0:9 - [system] Listen socket initialized successfully.
+3/21/2015 19:0:9 - [system] Heartbeat timer created.
+3/21/2015 19:0:9 - [system] Heartbeat timer set.
+3/21/2015 19:0:9 - [system] Game loop init
+3/21/2015 19:0:18 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:0:41 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:1:12 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:1:22 - [system] Logs initialized successfully.
+3/21/2015 19:1:22 - [system] Window initialized successfully.
+3/21/2015 19:1:22 - [system] World commands initialized successfully.
+3/21/2015 19:1:22 - [system] World messages initialized successfully.
+3/21/2015 19:1:22 - [system] World channels initialized successfully.
+3/21/2015 19:1:22 - [system] Init took:  0.130154
+3/21/2015 19:1:23 - [system] Listen socket initialized successfully.
+3/21/2015 19:1:23 - [system] Heartbeat timer created.
+3/21/2015 19:1:23 - [system] Heartbeat timer set.
+3/21/2015 19:1:23 - [system] Game loop init
+3/21/2015 19:1:23 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:2:41 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:3:29 - [system] Logs initialized successfully.
+3/21/2015 19:3:29 - [system] Window initialized successfully.
+3/21/2015 19:3:29 - [system] World commands initialized successfully.
+3/21/2015 19:3:29 - [system] World messages initialized successfully.
+3/21/2015 19:3:29 - [system] World channels initialized successfully.
+3/21/2015 19:3:29 - [system] Init took:  0.116144
+3/21/2015 19:3:29 - [system] Listen socket initialized successfully.
+3/21/2015 19:3:29 - [system] Heartbeat timer created.
+3/21/2015 19:3:29 - [system] Heartbeat timer set.
+3/21/2015 19:3:29 - [system] Game loop init
+3/21/2015 19:3:30 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:4:29 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:5:29 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:6:32 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:7:4 - [system] Logs initialized successfully.
+3/21/2015 19:7:4 - [system] Window initialized successfully.
+3/21/2015 19:7:4 - [system] World commands initialized successfully.
+3/21/2015 19:7:4 - [system] World messages initialized successfully.
+3/21/2015 19:7:4 - [system] World channels initialized successfully.
+3/21/2015 19:7:4 - [system] Init took:  0.115133
+3/21/2015 19:7:4 - [system] Listen socket initialized successfully.
+3/21/2015 19:7:4 - [system] Heartbeat timer created.
+3/21/2015 19:7:4 - [system] Heartbeat timer set.
+3/21/2015 19:7:4 - [system] Game loop init
+3/21/2015 19:7:5 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:7:24 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:7:44 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:8:4 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:8:24 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 19:8:44 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 19:9:4 - [world] World Tick... Uptime: 6 minutes.
+3/21/2015 19:9:26 - [world] World Tick... Uptime: 7 minutes.
+3/21/2015 19:9:51 - [system] Logs initialized successfully.
+3/21/2015 19:9:51 - [system] Window initialized successfully.
+3/21/2015 19:9:51 - [system] World commands initialized successfully.
+3/21/2015 19:9:51 - [system] World messages initialized successfully.
+3/21/2015 19:9:51 - [system] World channels initialized successfully.
+3/21/2015 19:9:51 - [system] Init took:  0.123154
+3/21/2015 19:9:51 - [system] Listen socket initialized successfully.
+3/21/2015 19:9:51 - [system] Heartbeat timer created.
+3/21/2015 19:9:51 - [system] Heartbeat timer set.
+3/21/2015 19:9:51 - [system] Game loop init
+3/21/2015 19:9:59 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:10:12 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:10:31 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:10:50 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:11:9 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 19:11:29 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 19:11:49 - [world] World Tick... Uptime: 6 minutes.
+3/21/2015 19:12:22 - [system] Logs initialized successfully.
+3/21/2015 19:12:22 - [system] Window initialized successfully.
+3/21/2015 19:12:22 - [system] World commands initialized successfully.
+3/21/2015 19:12:22 - [system] World messages initialized successfully.
+3/21/2015 19:12:22 - [system] World channels initialized successfully.
+3/21/2015 19:12:22 - [system] Init took:  0.187220
+3/21/2015 19:12:22 - [system] Listen socket initialized successfully.
+3/21/2015 19:12:22 - [system] Heartbeat timer created.
+3/21/2015 19:12:22 - [system] Heartbeat timer set.
+3/21/2015 19:13:7 - [system] Logs initialized successfully.
+3/21/2015 19:13:8 - [system] Window initialized successfully.
+3/21/2015 19:13:8 - [system] World commands initialized successfully.
+3/21/2015 19:13:8 - [system] World messages initialized successfully.
+3/21/2015 19:13:8 - [system] World channels initialized successfully.
+3/21/2015 19:13:8 - [system] Init took:  0.129161
+3/21/2015 19:13:8 - [system] Listen socket initialized successfully.
+3/21/2015 19:13:8 - [system] Heartbeat timer created.
+3/21/2015 19:13:8 - [system] Heartbeat timer set.
+3/21/2015 19:13:8 - [system] Game loop init
+3/21/2015 19:13:8 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:13:18 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:13:28 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:13:38 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:13:48 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 19:13:58 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 19:14:13 - [system] Logs initialized successfully.
+3/21/2015 19:14:13 - [system] Window initialized successfully.
+3/21/2015 19:14:13 - [system] World commands initialized successfully.
+3/21/2015 19:14:13 - [system] World messages initialized successfully.
+3/21/2015 19:14:13 - [system] World channels initialized successfully.
+3/21/2015 19:14:13 - [system] Init took:  0.128160
+3/21/2015 19:14:13 - [system] Listen socket initialized successfully.
+3/21/2015 19:14:13 - [system] Heartbeat timer created.
+3/21/2015 19:14:13 - [system] Heartbeat timer set.
+3/21/2015 19:14:13 - [system] Game loop init
+3/21/2015 19:14:14 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:14:23 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:14:33 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:14:43 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:14:53 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 19:15:3 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 19:15:15 - [system] Logs initialized successfully.
+3/21/2015 19:15:15 - [system] Window initialized successfully.
+3/21/2015 19:15:15 - [system] World commands initialized successfully.
+3/21/2015 19:15:15 - [system] World messages initialized successfully.
+3/21/2015 19:15:15 - [system] World channels initialized successfully.
+3/21/2015 19:15:15 - [system] Init took:  0.113141
+3/21/2015 19:15:15 - [system] Listen socket initialized successfully.
+3/21/2015 19:15:15 - [system] Heartbeat timer created.
+3/21/2015 19:15:15 - [system] Heartbeat timer set.
+3/21/2015 19:15:15 - [system] Game loop init
+3/21/2015 19:15:16 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:15:26 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:15:36 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:15:46 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:15:56 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 19:16:6 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 19:16:35 - [system] Logs initialized successfully.
+3/21/2015 19:16:36 - [system] Window initialized successfully.
+3/21/2015 19:16:36 - [system] World commands initialized successfully.
+3/21/2015 19:16:36 - [system] World messages initialized successfully.
+3/21/2015 19:16:36 - [system] World channels initialized successfully.
+3/21/2015 19:16:36 - [system] Init took:  0.115144
+3/21/2015 19:16:36 - [system] Listen socket initialized successfully.
+3/21/2015 19:16:36 - [system] Heartbeat timer created.
+3/21/2015 19:16:36 - [system] Heartbeat timer set.
+3/21/2015 19:16:36 - [system] Game loop init
+3/21/2015 19:16:40 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:16:46 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:16:57 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:17:7 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:17:17 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 19:17:27 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 19:17:37 - [world] World Tick... Uptime: 6 minutes.
+3/21/2015 19:17:40 - [network] Dirty disconnect detected: 127.0.0.1
+3/21/2015 19:19:41 - [system] Logs initialized successfully.
+3/21/2015 19:19:41 - [system] Window initialized successfully.
+3/21/2015 19:19:41 - [system] World commands initialized successfully.
+3/21/2015 19:19:41 - [system] World messages initialized successfully.
+3/21/2015 19:19:41 - [system] World channels initialized successfully.
+3/21/2015 19:19:41 - [system] Init took:  0.104630
+3/21/2015 19:19:41 - [system] Listen socket initialized successfully.
+3/21/2015 19:19:41 - [system] Heartbeat timer created.
+3/21/2015 19:19:41 - [system] Heartbeat timer set.
+3/21/2015 19:19:41 - [system] Game loop init
+3/21/2015 19:19:52 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:20:1 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:20:2 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:20:12 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:20:22 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 19:20:32 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 19:20:42 - [world] World Tick... Uptime: 6 minutes.
+3/21/2015 19:20:52 - [world] World Tick... Uptime: 7 minutes.
+3/21/2015 19:21:2 - [world] World Tick... Uptime: 8 minutes.
+3/21/2015 19:21:12 - [world] World Tick... Uptime: 9 minutes.
+3/21/2015 19:21:20 - [system] Logs initialized successfully.
+3/21/2015 19:21:20 - [system] Window initialized successfully.
+3/21/2015 19:21:20 - [system] World commands initialized successfully.
+3/21/2015 19:21:20 - [system] World messages initialized successfully.
+3/21/2015 19:21:20 - [system] World channels initialized successfully.
+3/21/2015 19:21:20 - [system] Init took:  0.115144
+3/21/2015 19:21:20 - [system] Listen socket initialized successfully.
+3/21/2015 19:21:20 - [system] Heartbeat timer created.
+3/21/2015 19:21:20 - [system] Heartbeat timer set.
+3/21/2015 19:21:20 - [system] Game loop init
+3/21/2015 19:21:22 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:21:30 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:21:40 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:21:57 - [system] Logs initialized successfully.
+3/21/2015 19:21:57 - [system] Window initialized successfully.
+3/21/2015 19:21:57 - [system] World commands initialized successfully.
+3/21/2015 19:21:57 - [system] World messages initialized successfully.
+3/21/2015 19:21:57 - [system] World channels initialized successfully.
+3/21/2015 19:21:57 - [system] Init took:  0.116130
+3/21/2015 19:21:57 - [system] Listen socket initialized successfully.
+3/21/2015 19:21:57 - [system] Heartbeat timer created.
+3/21/2015 19:21:57 - [system] Heartbeat timer set.
+3/21/2015 19:21:57 - [system] Game loop init
+3/21/2015 19:22:0 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:22:7 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:22:16 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:22:26 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:22:36 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 19:22:46 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 19:22:57 - [system] Logs initialized successfully.
+3/21/2015 19:22:57 - [system] Window initialized successfully.
+3/21/2015 19:22:57 - [system] World commands initialized successfully.
+3/21/2015 19:22:57 - [system] World messages initialized successfully.
+3/21/2015 19:22:57 - [system] World channels initialized successfully.
+3/21/2015 19:22:57 - [system] Init took:  0.145183
+3/21/2015 19:22:57 - [system] Listen socket initialized successfully.
+3/21/2015 19:22:57 - [system] Heartbeat timer created.
+3/21/2015 19:22:57 - [system] Heartbeat timer set.
+3/21/2015 19:22:57 - [system] Game loop init
+3/21/2015 19:23:0 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:23:7 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:23:17 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:23:27 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:23:37 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 19:23:47 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 19:23:57 - [system] Logs initialized successfully.
+3/21/2015 19:23:57 - [system] Window initialized successfully.
+3/21/2015 19:23:57 - [system] World commands initialized successfully.
+3/21/2015 19:23:57 - [system] World messages initialized successfully.
+3/21/2015 19:23:57 - [system] World channels initialized successfully.
+3/21/2015 19:23:57 - [system] Init took:  0.118147
+3/21/2015 19:23:57 - [system] Listen socket initialized successfully.
+3/21/2015 19:23:57 - [system] Heartbeat timer created.
+3/21/2015 19:23:57 - [system] Heartbeat timer set.
+3/21/2015 19:23:57 - [system] Game loop init
+3/21/2015 19:23:59 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:24:7 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:24:17 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:24:27 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:24:45 - [system] Logs initialized successfully.
+3/21/2015 19:24:45 - [system] Window initialized successfully.
+3/21/2015 19:24:45 - [system] World commands initialized successfully.
+3/21/2015 19:24:45 - [system] World messages initialized successfully.
+3/21/2015 19:24:45 - [system] World channels initialized successfully.
+3/21/2015 19:24:45 - [system] Init took:  0.106132
+3/21/2015 19:24:45 - [system] Listen socket initialized successfully.
+3/21/2015 19:24:45 - [system] Heartbeat timer created.
+3/21/2015 19:24:45 - [system] Heartbeat timer set.
+3/21/2015 19:24:45 - [system] Game loop init
+3/21/2015 19:24:53 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:24:55 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:25:5 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:25:15 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:25:25 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 19:25:34 - [system] Logs initialized successfully.
+3/21/2015 19:25:34 - [system] Window initialized successfully.
+3/21/2015 19:25:34 - [system] World commands initialized successfully.
+3/21/2015 19:25:34 - [system] World messages initialized successfully.
+3/21/2015 19:25:34 - [system] World channels initialized successfully.
+3/21/2015 19:25:34 - [system] Init took:  0.140174
+3/21/2015 19:25:34 - [system] Listen socket initialized successfully.
+3/21/2015 19:25:34 - [system] Heartbeat timer created.
+3/21/2015 19:25:34 - [system] Heartbeat timer set.
+3/21/2015 19:25:34 - [system] Game loop init
+3/21/2015 19:25:37 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:25:44 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:25:54 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:26:11 - [system] Logs initialized successfully.
+3/21/2015 19:26:11 - [system] Window initialized successfully.
+3/21/2015 19:26:12 - [system] World commands initialized successfully.
+3/21/2015 19:26:12 - [system] World messages initialized successfully.
+3/21/2015 19:26:12 - [system] World channels initialized successfully.
+3/21/2015 19:26:12 - [system] Init took:  0.106133
+3/21/2015 19:26:12 - [system] Listen socket initialized successfully.
+3/21/2015 19:26:12 - [system] Heartbeat timer created.
+3/21/2015 19:26:12 - [system] Heartbeat timer set.
+3/21/2015 19:26:12 - [system] Game loop init
+3/21/2015 19:26:21 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:26:22 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:26:32 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:26:42 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:26:52 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 19:27:2 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 19:27:12 - [world] World Tick... Uptime: 6 minutes.
+3/21/2015 19:27:22 - [world] World Tick... Uptime: 7 minutes.
+3/21/2015 19:27:32 - [world] World Tick... Uptime: 8 minutes.
+3/21/2015 19:28:46 - [system] Logs initialized successfully.
+3/21/2015 19:28:46 - [system] Window initialized successfully.
+3/21/2015 19:28:46 - [system] World commands initialized successfully.
+3/21/2015 19:28:46 - [system] World messages initialized successfully.
+3/21/2015 19:28:46 - [system] World channels initialized successfully.
+3/21/2015 19:28:46 - [system] Init took:  0
+3/21/2015 19:28:46 - [system] Listen socket initialized successfully.
+3/21/2015 19:28:46 - [system] Heartbeat timer created.
+3/21/2015 19:28:46 - [system] Heartbeat timer set.
+3/21/2015 19:28:46 - [system] Game loop init
+3/21/2015 19:28:52 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:28:56 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:29:10 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:29:22 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:29:32 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 19:29:42 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 19:29:52 - [world] World Tick... Uptime: 6 minutes.
+3/21/2015 19:30:4 - [system] Logs initialized successfully.
+3/21/2015 19:30:4 - [system] Window initialized successfully.
+3/21/2015 19:30:4 - [system] World commands initialized successfully.
+3/21/2015 19:30:4 - [system] World messages initialized successfully.
+3/21/2015 19:30:4 - [system] World channels initialized successfully.
+3/21/2015 19:30:4 - [system] Init took:  0
+3/21/2015 19:30:4 - [system] Listen socket initialized successfully.
+3/21/2015 19:30:4 - [system] Heartbeat timer created.
+3/21/2015 19:30:4 - [system] Heartbeat timer set.
+3/21/2015 19:30:4 - [system] Game loop init
+3/21/2015 19:30:6 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:30:15 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:30:26 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:30:36 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:30:46 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 19:30:56 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 19:31:6 - [world] World Tick... Uptime: 6 minutes.
+3/21/2015 19:31:16 - [world] World Tick... Uptime: 7 minutes.
+3/21/2015 19:31:26 - [world] World Tick... Uptime: 8 minutes.
+3/21/2015 19:31:36 - [world] World Tick... Uptime: 9 minutes.
+3/21/2015 19:31:46 - [world] World Tick... Uptime: 10 minutes.
+3/21/2015 19:32:3 - [system] Logs initialized successfully.
+3/21/2015 19:32:3 - [system] Window initialized successfully.
+3/21/2015 19:32:3 - [system] World commands initialized successfully.
+3/21/2015 19:32:3 - [system] World messages initialized successfully.
+3/21/2015 19:32:3 - [system] World channels initialized successfully.
+3/21/2015 19:32:3 - [system] Init took:  0.162189
+3/21/2015 19:32:3 - [system] Listen socket initialized successfully.
+3/21/2015 19:32:3 - [system] Heartbeat timer created.
+3/21/2015 19:32:3 - [system] Heartbeat timer set.
+3/21/2015 19:32:3 - [system] Game loop init
+3/21/2015 19:32:5 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:32:13 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:32:23 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:32:33 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:32:43 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 19:32:53 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 19:33:3 - [world] World Tick... Uptime: 6 minutes.
+3/21/2015 19:33:13 - [world] World Tick... Uptime: 7 minutes.
+3/21/2015 19:33:23 - [world] World Tick... Uptime: 8 minutes.
+3/21/2015 19:33:33 - [world] World Tick... Uptime: 9 minutes.
+3/21/2015 19:33:43 - [world] World Tick... Uptime: 10 minutes.
+3/21/2015 19:33:53 - [world] World Tick... Uptime: 11 minutes.
+3/21/2015 19:34:3 - [world] World Tick... Uptime: 12 minutes.
+3/21/2015 19:34:14 - [world] World Tick... Uptime: 13 minutes.
+3/21/2015 19:34:30 - [world] World Tick... Uptime: 14 minutes.
+3/21/2015 19:34:40 - [world] World Tick... Uptime: 15 minutes.
+3/21/2015 19:34:50 - [world] World Tick... Uptime: 16 minutes.
+3/21/2015 19:35:0 - [world] World Tick... Uptime: 17 minutes.
+3/21/2015 19:35:10 - [world] World Tick... Uptime: 18 minutes.
+3/21/2015 19:35:20 - [world] World Tick... Uptime: 19 minutes.
+3/21/2015 19:35:30 - [world] World Tick... Uptime: 20 minutes.
+3/21/2015 19:35:40 - [world] World Tick... Uptime: 21 minutes.
+3/21/2015 19:35:50 - [world] World Tick... Uptime: 22 minutes.
+3/21/2015 19:35:59 - [system] Logs initialized successfully.
+3/21/2015 19:35:59 - [system] Window initialized successfully.
+3/21/2015 19:35:59 - [system] World commands initialized successfully.
+3/21/2015 19:35:59 - [system] World messages initialized successfully.
+3/21/2015 19:35:59 - [system] World channels initialized successfully.
+3/21/2015 19:35:59 - [system] Init took:  0.113142
+3/21/2015 19:35:59 - [system] Listen socket initialized successfully.
+3/21/2015 19:35:59 - [system] Heartbeat timer created.
+3/21/2015 19:35:59 - [system] Heartbeat timer set.
+3/21/2015 19:35:59 - [system] Game loop init
+3/21/2015 19:36:2 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:37:1 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:38:1 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:39:1 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:40:1 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 19:40:53 - [system] Logs initialized successfully.
+3/21/2015 19:40:54 - [system] Window initialized successfully.
+3/21/2015 19:40:54 - [system] World commands initialized successfully.
+3/21/2015 19:40:54 - [system] World messages initialized successfully.
+3/21/2015 19:40:54 - [system] World channels initialized successfully.
+3/21/2015 19:40:54 - [system] Init took:  0.115128
+3/21/2015 19:40:54 - [system] Listen socket initialized successfully.
+3/21/2015 19:40:54 - [system] Heartbeat timer created.
+3/21/2015 19:40:54 - [system] Heartbeat timer set.
+3/21/2015 19:40:54 - [system] Game loop init
+3/21/2015 19:40:57 - [network] Socket connected: 127.0.0.1
+3/21/2015 19:41:54 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 19:42:56 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 19:43:57 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 19:44:57 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 19:45:57 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 19:46:57 - [world] World Tick... Uptime: 6 minutes.
+3/21/2015 19:47:57 - [world] World Tick... Uptime: 7 minutes.
+3/21/2015 19:48:57 - [world] World Tick... Uptime: 8 minutes.
+3/21/2015 19:49:56 - [world] World Tick... Uptime: 9 minutes.
+3/21/2015 19:50:57 - [world] World Tick... Uptime: 10 minutes.
+3/21/2015 19:51:57 - [world] World Tick... Uptime: 11 minutes.
+3/21/2015 19:52:58 - [world] World Tick... Uptime: 12 minutes.
+3/21/2015 19:53:58 - [world] World Tick... Uptime: 13 minutes.
+3/21/2015 19:54:58 - [world] World Tick... Uptime: 14 minutes.
+3/21/2015 19:55:59 - [world] World Tick... Uptime: 15 minutes.
+3/21/2015 19:57:0 - [world] World Tick... Uptime: 16 minutes.
+3/21/2015 19:59:1 - [world] World Tick... Uptime: 18 minutes.
+3/21/2015 19:59:14 - [system] Logs initialized successfully.
+3/21/2015 19:59:14 - [system] Window initialized successfully.
+3/21/2015 19:59:14 - [system] World commands initialized successfully.
+3/21/2015 19:59:14 - [system] World messages initialized successfully.
+3/21/2015 19:59:14 - [system] World channels initialized successfully.
+3/21/2015 19:59:14 - [system] Init took:  0.118147
+3/21/2015 19:59:14 - [system] Listen socket initialized successfully.
+3/21/2015 19:59:14 - [system] Heartbeat timer created.
+3/21/2015 19:59:14 - [system] Heartbeat timer set.
+3/21/2015 19:59:14 - [system] Game loop init
+3/21/2015 19:59:16 - [network] Socket connected: 127.0.0.1
+3/21/2015 20:0:16 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 20:1:16 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 20:2:16 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 20:3:16 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 20:4:16 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 20:4:43 - [network] Dirty disconnect detected: 127.0.0.1
+3/21/2015 20:5:18 - [world] World Tick... Uptime: 6 minutes.
+3/21/2015 20:6:19 - [world] World Tick... Uptime: 7 minutes.
+3/21/2015 20:7:22 - [world] World Tick... Uptime: 8 minutes.
+3/21/2015 20:8:23 - [world] World Tick... Uptime: 9 minutes.
+3/21/2015 20:9:23 - [world] World Tick... Uptime: 10 minutes.
+3/21/2015 20:10:6 - [system] Logs initialized successfully.
+3/21/2015 20:10:6 - [system] Window initialized successfully.
+3/21/2015 20:10:6 - [system] World commands initialized successfully.
+3/21/2015 20:10:6 - [system] World messages initialized successfully.
+3/21/2015 20:10:6 - [system] World channels initialized successfully.
+3/21/2015 20:10:6 - [system] Init took:  0.113142
+3/21/2015 20:10:6 - [system] Listen socket initialized successfully.
+3/21/2015 20:10:6 - [system] Heartbeat timer created.
+3/21/2015 20:10:6 - [system] Heartbeat timer set.
+3/21/2015 20:10:6 - [system] Game loop init
+3/21/2015 20:11:9 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 20:12:11 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 20:14:0 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 20:14:34 - [system] Logs initialized successfully.
+3/21/2015 20:14:34 - [system] Window initialized successfully.
+3/21/2015 20:14:34 - [system] World commands initialized successfully.
+3/21/2015 20:14:34 - [system] World messages initialized successfully.
+3/21/2015 20:14:34 - [system] World channels initialized successfully.
+3/21/2015 20:14:34 - [system] Init took:  0.105118
+3/21/2015 20:14:34 - [system] Listen socket initialized successfully.
+3/21/2015 20:14:34 - [system] Heartbeat timer created.
+3/21/2015 20:14:34 - [system] Heartbeat timer set.
+3/21/2015 20:14:34 - [system] Game loop init
+3/21/2015 20:16:7 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 20:17:42 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 20:18:43 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 20:19:43 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 20:20:45 - [system] Logs initialized successfully.
+3/21/2015 20:20:45 - [system] Window initialized successfully.
+3/21/2015 20:20:45 - [system] World commands initialized successfully.
+3/21/2015 20:20:45 - [system] World messages initialized successfully.
+3/21/2015 20:20:45 - [system] World channels initialized successfully.
+3/21/2015 20:20:45 - [system] Init took:  0.249309
+3/21/2015 20:20:45 - [system] Listen socket initialized successfully.
+3/21/2015 20:20:45 - [system] Heartbeat timer created.
+3/21/2015 20:20:45 - [system] Heartbeat timer set.
+3/21/2015 20:20:45 - [system] Game loop init
+3/21/2015 20:21:32 - [system] Logs initialized successfully.
+3/21/2015 20:21:32 - [system] Window initialized successfully.
+3/21/2015 20:21:32 - [system] World commands initialized successfully.
+3/21/2015 20:21:32 - [system] World messages initialized successfully.
+3/21/2015 20:21:32 - [system] World channels initialized successfully.
+3/21/2015 20:21:32 - [system] Init took:  0.171199
+3/21/2015 20:21:32 - [system] Listen socket initialized successfully.
+3/21/2015 20:21:32 - [system] Heartbeat timer created.
+3/21/2015 20:21:32 - [system] Heartbeat timer set.
+3/21/2015 20:21:32 - [system] Game loop init
+3/21/2015 20:22:35 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 20:22:51 - [system] Logs initialized successfully.
+3/21/2015 20:22:51 - [system] Window initialized successfully.
+3/21/2015 20:22:51 - [system] World commands initialized successfully.
+3/21/2015 20:22:51 - [system] World messages initialized successfully.
+3/21/2015 20:22:51 - [system] World channels initialized successfully.
+3/21/2015 20:22:51 - [system] Init took:  0.123140
+3/21/2015 20:22:51 - [system] Listen socket initialized successfully.
+3/21/2015 20:22:51 - [system] Heartbeat timer created.
+3/21/2015 20:22:51 - [system] Heartbeat timer set.
+3/21/2015 20:22:51 - [system] Game loop init
+3/21/2015 20:24:7 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 20:25:8 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 20:26:8 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 20:27:8 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 20:28:8 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 20:29:8 - [world] World Tick... Uptime: 6 minutes.
+3/21/2015 20:30:8 - [world] World Tick... Uptime: 7 minutes.
+3/21/2015 20:31:8 - [world] World Tick... Uptime: 8 minutes.
+3/21/2015 20:32:8 - [world] World Tick... Uptime: 9 minutes.
+3/21/2015 20:33:8 - [world] World Tick... Uptime: 10 minutes.
+3/21/2015 20:34:8 - [world] World Tick... Uptime: 11 minutes.
+3/21/2015 20:35:8 - [world] World Tick... Uptime: 12 minutes.
+3/21/2015 20:36:8 - [world] World Tick... Uptime: 13 minutes.
+3/21/2015 20:37:9 - [world] World Tick... Uptime: 14 minutes.
+3/21/2015 20:38:9 - [world] World Tick... Uptime: 15 minutes.
+3/21/2015 20:39:13 - [world] World Tick... Uptime: 16 minutes.
+3/21/2015 20:40:14 - [world] World Tick... Uptime: 17 minutes.
+3/21/2015 20:41:14 - [world] World Tick... Uptime: 18 minutes.
+3/21/2015 20:42:14 - [world] World Tick... Uptime: 19 minutes.
+3/21/2015 20:42:56 - [system] Logs initialized successfully.
+3/21/2015 20:42:56 - [system] Window initialized successfully.
+3/21/2015 20:42:56 - [system] World commands initialized successfully.
+3/21/2015 20:42:56 - [system] World messages initialized successfully.
+3/21/2015 20:42:56 - [system] World channels initialized successfully.
+3/21/2015 20:42:56 - [system] Listen socket initialized successfully.
+3/21/2015 20:42:56 - [system] Heartbeat timer created.
+3/21/2015 20:42:56 - [system] Heartbeat timer set.
+3/21/2015 20:42:56 - [system] Game loop init
+3/21/2015 20:43:56 - [system] Logs initialized successfully.
+3/21/2015 20:43:56 - [system] Window initialized successfully.
+3/21/2015 20:43:56 - [system] World commands initialized successfully.
+3/21/2015 20:43:56 - [system] World messages initialized successfully.
+3/21/2015 20:43:56 - [system] World channels initialized successfully.
+3/21/2015 20:43:56 - [system] Listen socket initialized successfully.
+3/21/2015 20:43:56 - [system] Heartbeat timer created.
+3/21/2015 20:43:56 - [system] Heartbeat timer set.
+3/21/2015 20:43:56 - [system] Game loop init
+3/21/2015 20:45:25 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 20:46:26 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 20:47:27 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 20:48:1 - [system] Logs initialized successfully.
+3/21/2015 20:48:2 - [system] Window initialized successfully.
+3/21/2015 20:48:2 - [system] World commands initialized successfully.
+3/21/2015 20:48:2 - [system] World messages initialized successfully.
+3/21/2015 20:48:2 - [system] World channels initialized successfully.
+3/21/2015 20:48:2 - [system] Listen socket initialized successfully.
+3/21/2015 20:48:2 - [system] Heartbeat timer created.
+3/21/2015 20:48:2 - [system] Heartbeat timer set.
+3/21/2015 20:48:2 - [system] Game loop init
+3/21/2015 20:49:4 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 20:50:4 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 20:51:4 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 20:52:4 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 20:52:31 - [network] Socket connected: 127.0.0.1
+3/21/2015 20:53:12 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 20:53:29 - [system] Logs initialized successfully.
+3/21/2015 20:53:29 - [system] Window initialized successfully.
+3/21/2015 20:53:29 - [system] World commands initialized successfully.
+3/21/2015 20:53:29 - [system] World messages initialized successfully.
+3/21/2015 20:53:29 - [system] World channels initialized successfully.
+3/21/2015 20:53:29 - [system] Listen socket initialized successfully.
+3/21/2015 20:53:29 - [system] Heartbeat timer created.
+3/21/2015 20:53:29 - [system] Heartbeat timer set.
+3/21/2015 20:53:29 - [system] Game loop init
+3/21/2015 20:53:32 - [network] Socket connected: 127.0.0.1
+3/21/2015 20:54:30 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 20:55:30 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 20:56:30 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 20:56:44 - [system] Logs initialized successfully.
+3/21/2015 20:56:44 - [system] Window initialized successfully.
+3/21/2015 20:56:44 - [system] World commands initialized successfully.
+3/21/2015 20:56:44 - [system] World messages initialized successfully.
+3/21/2015 20:56:44 - [system] World channels initialized successfully.
+3/21/2015 20:56:44 - [system] Listen socket initialized successfully.
+3/21/2015 20:56:44 - [system] Heartbeat timer created.
+3/21/2015 20:56:44 - [system] Heartbeat timer set.
+3/21/2015 20:56:44 - [system] Game loop init
+3/21/2015 20:57:18 - [system] Logs initialized successfully.
+3/21/2015 20:57:18 - [system] Window initialized successfully.
+3/21/2015 20:57:18 - [system] World commands initialized successfully.
+3/21/2015 20:57:18 - [system] World messages initialized successfully.
+3/21/2015 20:57:18 - [system] World channels initialized successfully.
+3/21/2015 20:57:18 - [system] Listen socket initialized successfully.
+3/21/2015 20:57:18 - [system] Heartbeat timer created.
+3/21/2015 20:57:18 - [system] Heartbeat timer set.
+3/21/2015 20:57:18 - [system] Game loop init
+3/21/2015 20:57:21 - [network] Socket connected: 127.0.0.1
+3/21/2015 20:57:51 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 20:58:21 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 20:58:51 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 20:59:21 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 20:59:51 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 21:0:21 - [world] World Tick... Uptime: 6 minutes.
+3/21/2015 21:0:51 - [world] World Tick... Uptime: 7 minutes.
+3/21/2015 21:1:21 - [world] World Tick... Uptime: 8 minutes.
+3/21/2015 21:1:51 - [world] World Tick... Uptime: 9 minutes.
+3/21/2015 21:2:21 - [world] World Tick... Uptime: 10 minutes.
+3/21/2015 21:2:51 - [world] World Tick... Uptime: 11 minutes.
+3/21/2015 21:3:21 - [world] World Tick... Uptime: 12 minutes.
+3/21/2015 21:3:51 - [world] World Tick... Uptime: 13 minutes.
+3/21/2015 21:4:21 - [world] World Tick... Uptime: 14 minutes.
+3/21/2015 21:4:51 - [world] World Tick... Uptime: 15 minutes.
+3/21/2015 21:5:21 - [world] World Tick... Uptime: 16 minutes.
+3/21/2015 21:5:51 - [world] World Tick... Uptime: 17 minutes.
+3/21/2015 21:6:21 - [world] World Tick... Uptime: 18 minutes.
+3/21/2015 21:6:51 - [world] World Tick... Uptime: 19 minutes.
+3/21/2015 21:7:21 - [world] World Tick... Uptime: 20 minutes.
+3/21/2015 21:7:51 - [world] World Tick... Uptime: 21 minutes.
+3/21/2015 21:8:21 - [world] World Tick... Uptime: 22 minutes.
+3/21/2015 21:8:51 - [world] World Tick... Uptime: 23 minutes.
+3/21/2015 21:9:22 - [world] World Tick... Uptime: 24 minutes.
+3/21/2015 21:9:52 - [world] World Tick... Uptime: 25 minutes.
+3/21/2015 21:10:22 - [world] World Tick... Uptime: 26 minutes.
+3/21/2015 21:10:52 - [world] World Tick... Uptime: 27 minutes.
+3/21/2015 21:11:22 - [world] World Tick... Uptime: 28 minutes.
+3/21/2015 21:11:52 - [world] World Tick... Uptime: 29 minutes.
+3/21/2015 21:12:22 - [world] World Tick... Uptime: 30 minutes.
+3/21/2015 21:12:52 - [world] World Tick... Uptime: 31 minutes.
+3/21/2015 21:13:22 - [world] World Tick... Uptime: 32 minutes.
+3/21/2015 21:13:52 - [world] World Tick... Uptime: 33 minutes.
+3/21/2015 21:14:22 - [world] World Tick... Uptime: 34 minutes.
+3/21/2015 21:14:52 - [world] World Tick... Uptime: 35 minutes.
+3/21/2015 21:15:22 - [world] World Tick... Uptime: 36 minutes.
+3/21/2015 21:15:52 - [world] World Tick... Uptime: 37 minutes.
+3/21/2015 21:16:22 - [world] World Tick... Uptime: 38 minutes.
+3/21/2015 21:16:52 - [world] World Tick... Uptime: 39 minutes.
+3/21/2015 21:23:34 - [system] Game loop init
+3/21/2015 21:24:36 - [system] Game loop init
+3/21/2015 21:25:28 - [network] Socket connected: 127.0.0.1
+3/21/2015 21:25:39 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 21:26:39 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 21:27:41 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 21:28:41 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 21:29:41 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 21:30:41 - [world] World Tick... Uptime: 6 minutes.
+3/21/2015 21:31:41 - [world] World Tick... Uptime: 7 minutes.
+3/21/2015 21:32:41 - [world] World Tick... Uptime: 8 minutes.
+3/21/2015 21:33:41 - [world] World Tick... Uptime: 9 minutes.
+3/21/2015 21:34:45 - [world] World Tick... Uptime: 10 minutes.
+3/21/2015 21:35:13 - [system] Game loop init
+3/21/2015 21:35:14 - [network] Socket connected: 127.0.0.1
+3/21/2015 21:37:1 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 21:37:34 - [system] Game loop init
+3/21/2015 21:37:35 - [network] Socket connected: 127.0.0.1
+3/21/2015 21:39:37 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 21:40:7 - [system] Game loop init
+3/21/2015 21:40:9 - [network] Socket connected: 127.0.0.1
+3/21/2015 21:41:11 - [world] World Tick... Uptime: 1 minutes.
+3/21/2015 21:42:12 - [world] World Tick... Uptime: 2 minutes.
+3/21/2015 21:43:13 - [world] World Tick... Uptime: 3 minutes.
+3/21/2015 21:44:13 - [world] World Tick... Uptime: 4 minutes.
+3/21/2015 21:45:15 - [world] World Tick... Uptime: 5 minutes.
+3/21/2015 21:46:16 - [world] World Tick... Uptime: 6 minutes.
+4/24/2015 12:18:42 - [system] Init complete - game loop starting.
+6/6/2015 20:35:7 - [system] Init complete - game loop starting.
