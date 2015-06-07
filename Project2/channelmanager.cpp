@@ -2,7 +2,7 @@
 #include "player.h"
 #include "world.h"
 
-bool ChannelManager::InitChannels() {
+bool InitChannels() {
 	
 	auto serverEvents = World::world()->server()->events();
 	auto events = World::world()->events();
@@ -22,7 +22,7 @@ EVENT(ChannelManager::OnPlayerLogin)
 	player->message("Successfully logged in.\r\n", BOLDCYAN);
 	message("GLOBAL", std::string(GREEN) + player->name() + RESET + " logged in.\r\n", Info);
 }
-EVENT(ChannelManager::OnPlayerLogout)
+EVENT(ChannelManager::OnPlayerLogout) //hidden variable caller - points to object that triggered event
 {
 	//temp  - should also save the list of channels to the user preferences... or maybe shouldn't even go here?
 	auto player = static_cast<Player*>(caller);

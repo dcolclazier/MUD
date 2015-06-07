@@ -10,7 +10,7 @@
 #define MUD_SPAM_MAX 256
 
 //Player Rank Flags
-
+typedef unsigned long int FLAG;
 #define RANK_NONE 1<<1
 #define RANK_PLAYER 1<<2
 #define RANK_NEWBIE 1<<3
@@ -38,6 +38,3 @@
 #define BOLDCYAN    "\033[1m\033[36m"      /* Bold Cyan */
 #define BOLDWHITE   "\033[1m\033[37m"      /* Bold White */
 
-
-
-typedef unsigned long int FLAG;

@@ -15,10 +15,10 @@ class Channel : public ISecure
 	std::vector<Player*> _channelMembers;
 
 public:
-	Channel(std::string& name, FLAG access);
-	void broadcast(std::string& message, MessageType type);
-	void message_one(std::string& message, Player* player, MessageType type);
-	void broadcast_all_but(std::string& message, MessageType type, Player* player);
+	Channel(const std::string& name, FLAG access);
+	void broadcast(const std::string& message, MessageType type);
+	void message_one(const std::string& message, Player* player, MessageType type);
+	void broadcast_all_but(const std::string& message, MessageType type, Player* player);
 	bool add_member(Player* player);
 	bool contains_member(Player* player);
 	bool remove_member(Player* player);

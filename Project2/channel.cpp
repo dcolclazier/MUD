@@ -2,21 +2,21 @@
 #include "player.h"
 
 
-Channel::Channel(std::string& name, FLAG access) : _accessLevel(access), _channelName(name)
+Channel::Channel(const std::string& name, FLAG access) : _accessLevel(access), _channelName(name)
 {
 	_channelMembers.clear();
 }
 
-void Channel::broadcast(std::string& message, MessageType type)
+void Channel::broadcast(const std::string& message, MessageType type)
 {
 	for (auto member : _channelMembers)	{ message_one(message, member, type); }
 }
-void Channel::message_one(std::string& message, Player* player, MessageType type)
+void Channel::message_one(const std::string& message, Player* player, MessageType type)
 {
 	player->message(std::string(BOLDMAGENTA) +_channelName + RESET + ": " + message + "\r\n");
 }
 
-void Channel::broadcast_all_but(std::string& message, MessageType type, Player* playerToSkip)
+void Channel::broadcast_all_but(const std::string& message, MessageType type, Player* playerToSkip)
 {
 	for (auto member : _channelMembers)
 	{
