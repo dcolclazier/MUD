@@ -100,7 +100,7 @@ bool CApp::Init(HINSTANCE hInstance, MSG& msg, HWND& hWnd, void* test)
 	}
 	return true;
 }
-int CApp::Main(HINSTANCE hInstance, LPSTR lpCmdLine, int nCmdShow)
+int CApp::Main(HINSTANCE hInstance, LPSTR lpCmdLine, int nCmdShow) // lol this should be empty....
 {
 	HANDLE hTimer;
 	LARGE_INTEGER hbTimeout;
@@ -141,7 +141,7 @@ int CApp::Main(HINSTANCE hInstance, LPSTR lpCmdLine, int nCmdShow)
 		return EXIT_FAILURE;
 	}
 	if (world->server()->socket()->CreateSocket(hWnd, SM_WINSOCK, MUD_LSTNPORT) == 0) {
-		world->logger()->write("network", "Listen socket initialization failed.");
+		world->logger()->write("network", "Server initialization failed.");
 		return EXIT_FAILURE;
 	}
 
@@ -176,7 +176,7 @@ int CApp::Main(HINSTANCE hInstance, LPSTR lpCmdLine, int nCmdShow)
 		realTimeout.QuadPart += (_gameLoopTime * 10000000);
 
 		//reset timer
-		if (!SetWaitableTimer(hTimer, &realTimeout, 0, NULL, NULL, 0)) {
+		if (!SetWaitableTimer(hTimer, &realTimeout, 0, nullptr, nullptr, 0)) {
 			return 1;
 		}
 	}
@@ -186,6 +186,7 @@ int CApp::Main(HINSTANCE hInstance, LPSTR lpCmdLine, int nCmdShow)
 	return 1;
 }
 
+//This function is responsible for what appears on the server's app screen... 
 void CApp::PaintWindow(HWND hWnd) {
 
 	std::stringstream sout;
@@ -204,14 +205,18 @@ void CApp::PaintWindow(HWND hWnd) {
 	EndPaint(hWnd, &ps);
 }
 
-void CApp::print_line(HDC hdc, RECT& rt, std::string txt, double arg) {
+//no touchy - used by CApp::PaintWindow. Draws the specified string and double to the window,
+//	with a newline.
+void CApp::print_line(HDC hdc, RECT& rt, const std::string& txt, double arg) {
 	std::stringstream sout;
 	sout << std::fixed << std::setprecision(10);
 	sout << txt << arg;
 	DrawText(hdc, sout.str().c_str(), strlen(sout.str().c_str()), &rt, DT_CENTER);
 	rt.top += 16;
 }
-void CApp::print_line(HDC hdc, RECT& rt, std::string txt) {
+//no touchy - used by CApp::PaintWindow. Draws the specified string to the window,
+//	with a newline.
+void CApp::print_line(HDC hdc, RECT& rt, const std::string& txt) {
 	std::stringstream sout;
 	sout << std::fixed << std::setprecision(10);
 	sout << txt;

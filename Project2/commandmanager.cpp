@@ -1,5 +1,6 @@
 #include "world.h"
 #include "commandmanager.h"
+#include <iostream>
 
 
 bool CommandManager::add_command(Command* cmd)

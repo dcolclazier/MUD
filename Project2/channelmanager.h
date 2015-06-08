@@ -6,19 +6,19 @@
 
 class ChannelManager  {
 
-	std::map<std::string, Channel*> _channelList;
+	std::map<const std::string&, Channel*> _channelList;
 
 public:
-	bool InitChannels();
-	bool join_channel(std::string channelName, Player* playerToJoin);
-	bool leave_channel(std::string channelName, Player* playerToJoin);
-	bool add_channel(std::string channelName, FLAG channelAccessLevel);
-	bool remove_channel(std::string channelName);
-	bool channel_exists(std::string channelName);
+	bool InitChannels() const;
+	bool join_channel(const std::string& channelName, Player* playerToJoin);
+	bool leave_channel(const std::string& channelName, Player* playerToJoin);
+	bool add_channel(const std::string& channelName, FLAG channelAccessLevel);
+	bool remove_channel(const std::string& channelName);
+	bool channel_exists(const std::string& channelName) const;
 	
 	EVENT(OnDirtyDisconnect);
 	EVENT(OnPlayerLogin);
 	EVENT(OnPlayerLogout);
-	bool message(std::string channelName, std::string message, MessageType type);
+	bool message(const std::string& channelName, const std::string& message, MessageType type);
 };
 bool InitChannels();

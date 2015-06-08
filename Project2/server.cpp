@@ -33,6 +33,7 @@ void Server::SocketMessageHandler(WPARAM wParam, LPARAM lParam) {
 		process_new_connection(socket);
 		break;
 	case FD_CLOSE:
+		//This should handle link-dead situations, right?
 		process_disconnect(socket);
 		break;
 	case FD_READ:

@@ -13,7 +13,7 @@ int NormalSocket::GetText(char* destination, int length)
 	destination[bytes] = '\0';
 	return bytes;
 }
-bool NormalSocket::Read()
+bool NormalSocket::Read()//YUCK YUCK - I HATE THIS FUNCTION.
 {
 	// Grab the text from the buffer and note the increase in size
 	_bufferSize += GetText(_buffer + _bufferSize, MUD_LINE_MAX - _bufferSize);
@@ -107,10 +107,6 @@ std::string NormalSocket::PopCommand()
 
 std::string NormalSocket::get_address()
 {
-	/*std::ostringstream sout;
-	char* address = inet_ntoa(_address.sin_addr);
-	sout << address;
-	return sout.str();*/
 	return inet_ntoa(_asyncaddr.sin_addr);
 }
 
@@ -119,7 +115,7 @@ void NormalSocket::AddCommand(const std::string& input)
 	_commandQueue.push(input);
 }
 
-int NormalSocket::CreateSocket(SOCKET _serverSocket)
+int NormalSocket::CreateSocket(SOCKET _serverSocket) // bool, please?
 {
 	if (_status) // Don't create a socket if one already exists
 		return 0;

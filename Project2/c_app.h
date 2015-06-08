@@ -10,8 +10,8 @@ class CApp {
 	long double _looptime;
 	long double _gameLoopTime;
 	unsigned long long int _uptime;
-	void print_line(HDC hdc, RECT& rect, std::string txt, double arg);
-	void print_line(HDC hdc, RECT& rt, std::string txt);
+	void print_line(HDC hdc, RECT& rect, const std::string& txt, double arg);
+	void print_line(HDC hdc, RECT& rt, const std::string& txt);
 
 	LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam);
 	bool Init(HINSTANCE hInstance, MSG& msg, HWND& hWnd, void* test);

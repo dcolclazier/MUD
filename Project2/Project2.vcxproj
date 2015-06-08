@@ -84,6 +84,7 @@
     <ClCompile Include="normalsocket.cpp" />
     <ClCompile Include="parser.cpp" />
     <ClCompile Include="player.cpp" />
+    <ClCompile Include="Room.cpp" />
     <ClCompile Include="server.cpp" />
     <ClCompile Include="socket.cpp" />
     <ClCompile Include="tinystr.cpp" />
@@ -113,6 +114,7 @@
     <ClInclude Include="parser.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="PlayerManager.h" />
+    <ClInclude Include="Room.h" />
     <ClInclude Include="server.h" />
     <ClInclude Include="socket.h" />
     <ClInclude Include="status.h" />

@@ -2,11 +2,11 @@
 #include "player.h"
 #include "world.h"
 
-bool InitChannels() {
+bool ChannelManager::InitChannels() const {
 	
 	auto serverEvents = World::world()->server()->events();
 	auto events = World::world()->events();
-	events->add_listener("PlayerLogin", std::bind(&ChannelManager::OnPlayerLogin,this,  std::placeholders::_1, std::placeholders::_2));
+	events->add_listener("PlayerLogin", std::bind(&ChannelManager::OnPlayerLogin, this,  std::placeholders::_1, std::placeholders::_2));
 	events->add_listener("PlayerLogout", std::bind(&ChannelManager::OnPlayerLogout, this, std::placeholders::_1, std::placeholders::_2));
 	serverEvents->add_listener("DirtyDisconnect", std::bind(&ChannelManager::OnDirtyDisconnect, this, std::placeholders::_1, std::placeholders::_2));
 	return true;
@@ -39,14 +39,14 @@ EVENT(ChannelManager::OnDirtyDisconnect) {
 
 }
 
-bool ChannelManager::message(std::string channelName, std::string message, MessageType type)
+bool ChannelManager::message(const std::string& channelName, const std::string& message, MessageType type)
 {
 	if (!channel_exists(channelName)) return false;
 	_channelList[channelName]->broadcast(message, type);
 	return true;
 }
 
-bool ChannelManager::join_channel(std::string channelName, Player* playerToJoin)
+bool ChannelManager::join_channel(const std::string& channelName, Player* playerToJoin)
 {
 	if (!channel_exists(channelName)) return false;
 	auto channelToJoin = _channelList[channelName];
@@ -63,13 +63,13 @@ bool ChannelManager::join_channel(std::string channelName, Player* playerToJoin)
 	playerToJoin->message("Successfully joined " + channelName + ".\r\n", BOLDCYAN);
 	return true;
 }
-bool ChannelManager::leave_channel(std::string channelName, Player* leavingPlayer)
+bool ChannelManager::leave_channel(const std::string& channelName, Player* leavingPlayer)
 {
 	if (!channel_exists(channelName)) return false;
 	return _channelList[channelName]->remove_member(leavingPlayer);
 }
 
-bool ChannelManager::add_channel(std::string channelName, FLAG channelAccessLevel)
+bool ChannelManager::add_channel(const std::string& channelName, FLAG channelAccessLevel)
 {
 	if (channel_exists(channelName)) return false;
 
@@ -77,7 +77,7 @@ bool ChannelManager::add_channel(std::string channelName, FLAG channelAccessLeve
 	return true;
 }
 
-bool ChannelManager::remove_channel(std::string channelName)
+bool ChannelManager::remove_channel(const std::string& channelName)
 {
 	if (!channel_exists(channelName)) return false;
 	
@@ -90,7 +90,7 @@ bool ChannelManager::remove_channel(std::string channelName)
 	return true;
 }
 
-bool ChannelManager::channel_exists(std::string channelName)
+bool ChannelManager::channel_exists(const std::string& channelName) const
 {
 	return (_channelList.count(channelName) > 0);
 }
