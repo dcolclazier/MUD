@@ -108,7 +108,7 @@ int CApp::Main(HINSTANCE hInstance, LPSTR lpCmdLine, int nCmdShow) // lol this s
 	MSG msg; //windows msg object
 	auto world = World::world();
 	
-	_looptime = _gameLoopTime = _uptime = 0;
+	_worldTickTime = _gameLoopTime = _uptime = 0;
 	hbTimeout.QuadPart = -1000000LL;
 	hTimer = CreateWaitableTimer(nullptr, TRUE, "Heartbeat");
 
@@ -151,15 +151,14 @@ int CApp::Main(HINSTANCE hInstance, LPSTR lpCmdLine, int nCmdShow) // lol this s
 	
 	Timer worldLoopTimer;
 	while (WM_QUIT != msg.message) {
-		if (WaitForSingleObject(hTimer, INFINITE) != WAIT_OBJECT_0) {
-			return 1;
-		}
-		Timer gameLoopTimer;
+		if (WaitForSingleObject(hTimer, INFINITE) != WAIT_OBJECT_0) { return 1;	}
 		
+		Timer gameLoopTimer;
 		auto realTimeout = hbTimeout;
+		
 		//Check for world tick. - WORLD CODE HERE
-		if (++tick % 600 == 0) {
-			_looptime = worldLoopTimer.elapsed();
+		if (++tick % 599 == 0) {
+			_worldTickTime = worldLoopTimer.elapsed();
 			worldLoopTimer.reset();
 			world->logger()->write("world", std::string("World Tick... Uptime: ") + std::to_string(++_uptime) + " minutes.");
 			tick = 0;
@@ -172,8 +171,8 @@ int CApp::Main(HINSTANCE hInstance, LPSTR lpCmdLine, int nCmdShow) // lol this s
 		}
 
 		//offset timer by game execution loop time
-		_gameLoopTime = gameLoopTimer.elapsed();
-		realTimeout.QuadPart += (_gameLoopTime * 10000000);
+		//_gameLoopTime = gameLoopTimer.elapsed();
+		//realTimeout.QuadPart += (_gameLoopTime * 1000000);
 
 		//reset timer
 		if (!SetWaitableTimer(hTimer, &realTimeout, 0, nullptr, nullptr, 0)) {
@@ -199,7 +198,7 @@ void CApp::PaintWindow(HWND hWnd) {
 
 	print_line(hdc, rt, MUD_TITLE);
 	print_line(hdc, rt, "Connections: ", World::world()->server()->player_count());
-	print_line(hdc, rt, "World tick time: ", _looptime);
+	print_line(hdc, rt, "World tick time: ", _worldTickTime);
 	print_line(hdc, rt, "Game loop time: ", _gameLoopTime);
 		
 	EndPaint(hWnd, &ps);

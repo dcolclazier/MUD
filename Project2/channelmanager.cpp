@@ -2,13 +2,13 @@
 #include "player.h"
 #include "world.h"
 
-bool ChannelManager::InitChannels() const {
+bool ChannelManager::InitChannels() {
 	
 	auto serverEvents = World::world()->server()->events();
 	auto events = World::world()->events();
 	events->add_listener("PlayerLogin", std::bind(&ChannelManager::OnPlayerLogin, this,  std::placeholders::_1, std::placeholders::_2));
 	events->add_listener("PlayerLogout", std::bind(&ChannelManager::OnPlayerLogout, this, std::placeholders::_1, std::placeholders::_2));
-	serverEvents->add_listener("DirtyDisconnect", std::bind(&ChannelManager::OnDirtyDisconnect, this, std::placeholders::_1, std::placeholders::_2));
+	serverEvents.add_listener("DirtyDisconnect", std::bind(&ChannelManager::OnDirtyDisconnect, this, std::placeholders::_1, std::placeholders::_2));
 	return true;
 }
 
@@ -90,7 +90,7 @@ bool ChannelManager::remove_channel(const std::string& channelName)
 	return true;
 }
 
-bool ChannelManager::channel_exists(const std::string& channelName) const
+bool ChannelManager::channel_exists(const std::string& channelName)
 {
 	return (_channelList.count(channelName) > 0);
 }

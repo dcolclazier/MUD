@@ -7,15 +7,15 @@ class Authenticated;
 
 
 
-Server::Server(World* world) :_world(world)
+Server::Server(World& world) :_world(world)
 {
-	_logger = _world->logger();
+	_logger = _world.logger();
 	_events.register_event("DirtyDisconnect", new Event());
 }
 
-EventManager* Server::events() 
+EventManager& Server::events() 
 {
-	return &_events;
+	return _events;
 }
 
 void Server::RemoveAllUsers() {
@@ -30,6 +30,7 @@ void Server::SocketMessageHandler(WPARAM wParam, LPARAM lParam) {
 	switch (WSAGETSELECTEVENT(lParam)) {
 
 	case FD_ACCEPT:
+		//multiple connections from same ip... here?
 		process_new_connection(socket);
 		break;
 	case FD_CLOSE:
@@ -79,13 +80,13 @@ void Server::process_disconnect(SOCKET socket) {
 	auto player = _playerList[socket];
 
 	if (player->logged_in()) {
-		_world->logger()->write("network", "Dirty disconnect detected: " + player->socket()->get_address());
+		_world.logger()->write("network", "Dirty disconnect detected: " + player->socket()->get_address());
 		_events.trigger_event("DirtyDisconnect", nullptr, static_cast<void*>(player));
 		//move to link dead users - TODO
 		_playerList.erase(socket);
 	}
 	else {
-		_world->logger()->write("network", "Clean disconnect: " + player->socket()->get_address());
+		_world.logger()->write("network", "Clean disconnect: " + player->socket()->get_address());
 		_playerList.erase(socket);
 	}
 	delete player;

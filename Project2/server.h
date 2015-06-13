@@ -20,11 +20,11 @@ class Server
 	EventManager _events; //used
 	ListenSocket _listenSocket; //used
 	LogManager* _logger; //used
-	World* _world; //used
+	World& _world; //used
 public:
 
-	Server(World* world);
-	EventManager* events();
+	Server(World& world);
+	EventManager& events();
 	void RemoveAllUsers();
 	
 	bool ip_banned(std::string ip_address);

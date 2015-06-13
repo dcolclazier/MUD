@@ -7,7 +7,7 @@ struct RoomID {
 
 };
 
-
+//should implement from IEnterable, ILeaveable, ILookable, ISearchable, etc
 class Room {
 
 	//name - where does this come from?

@@ -24,7 +24,7 @@ World::World()
 	_channels.add_channel("GLOBAL", RANK_ALL);
 	_channels.add_channel("NEWBIE", RANK_ALL);
 
-	_server = new Server(this);
+	_server = new Server(*this);
 }
 
 World::~World()
@@ -38,6 +38,7 @@ bool World::ExecuteCommand(Player* player, std::string userInput)
 	
 	auto cmdList = _commands.get_commands();
 	auto args = Parser::is_special(userInput) ? Parser::handle_special(userInput) : Parser::split(userInput);
+	if (args.size() == 0) return false;
 	auto verb = args[0];
 	args.erase(args.begin());
 	

@@ -7,7 +7,7 @@
 
 
 class CApp {
-	long double _looptime;
+	long double _worldTickTime;
 	long double _gameLoopTime;
 	unsigned long long int _uptime;
 	void print_line(HDC hdc, RECT& rect, const std::string& txt, double arg);
