@@ -85,6 +85,8 @@
     <ClCompile Include="parser.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="Room.cpp" />
+    <ClCompile Include="RoomID.cpp" />
+    <ClCompile Include="RoomManager.cpp" />
     <ClCompile Include="server.cpp" />
     <ClCompile Include="socket.cpp" />
     <ClCompile Include="tinystr.cpp" />
@@ -94,6 +96,9 @@
     <ClCompile Include="userstates.cpp" />
     <ClCompile Include="utilities.cpp" />
     <ClCompile Include="world.cpp" />
+    <ClCompile Include="Zone.cpp" />
+    <ClCompile Include="ZoneID.cpp" />
+    <ClCompile Include="ZoneManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="channel.h" />
@@ -115,6 +120,8 @@
     <ClInclude Include="player.h" />
     <ClInclude Include="PlayerManager.h" />
     <ClInclude Include="Room.h" />
+    <ClInclude Include="RoomID.h" />
+    <ClInclude Include="RoomManager.h" />
     <ClInclude Include="server.h" />
     <ClInclude Include="socket.h" />
     <ClInclude Include="status.h" />
@@ -123,6 +130,9 @@
     <ClInclude Include="userstates.h" />
     <ClInclude Include="utilities.h" />
     <ClInclude Include="world.h" />
+    <ClInclude Include="Zone.h" />
+    <ClInclude Include="ZoneID.h" />
+    <ClInclude Include="ZoneManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

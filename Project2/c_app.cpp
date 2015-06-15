@@ -140,6 +140,12 @@ int CApp::Main(HINSTANCE hInstance, LPSTR lpCmdLine, int nCmdShow) // lol this s
 		world->logger()->write("world", "World channels initialization failed.");
 		return EXIT_FAILURE;
 	}
+	if (!world->zones().InitZones()) {
+		world->logger()->write("world", "World zone initialization failed.");
+		return EXIT_FAILURE;
+	}
+
+	
 	if (world->server()->socket()->CreateSocket(hWnd, SM_WINSOCK, MUD_LSTNPORT) == 0) {
 		world->logger()->write("network", "Server initialization failed.");
 		return EXIT_FAILURE;
@@ -171,8 +177,8 @@ int CApp::Main(HINSTANCE hInstance, LPSTR lpCmdLine, int nCmdShow) // lol this s
 		}
 
 		//offset timer by game execution loop time
-		//_gameLoopTime = gameLoopTimer.elapsed();
-		//realTimeout.QuadPart += (_gameLoopTime * 1000000);
+		_gameLoopTime = gameLoopTimer.elapsed();
+		realTimeout.QuadPart += (_gameLoopTime * 1000000LL);
 
 		//reset timer
 		if (!SetWaitableTimer(hTimer, &realTimeout, 0, nullptr, nullptr, 0)) {

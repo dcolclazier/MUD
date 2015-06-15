@@ -1,11 +1,6 @@
 ﻿#pragma once
+#include "RoomID.h"
 
-struct RoomID {
-	int x;
-	int y;
-	int z;
-
-};
 
 //should implement from IEnterable, ILeaveable, ILookable, ISearchable, etc
 class Room {
@@ -14,18 +9,14 @@ class Room {
 	//description - load from file? hard coded for now? provided by script?
 	//unique id - guid? could have upwards of 50k rooms some day...
 	//location  -- struct x,y,z -- 4d? haha just kidding... kinda...
-	RoomID Location;
-
-	
-
+	const RoomID _id;
 
 public:
 
-
-	explicit Room(const RoomID& location)
-		: Location(location) {
+	explicit Room(const RoomID& id)
+		: _id(id) {
 	}
-
+	const RoomID& ID() const { return _id; }
 	void enter();
 	void refresh();
 	void on_tick();

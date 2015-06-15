@@ -53,15 +53,15 @@ bool World::ExecuteCommand(Player* player, std::string userInput)
 		player->message("Pogj fharb rotsu? \r\n");
 		return false;
 	}
-
-	if (!player->can_execute(command))	{
-		player->message("You can't do that while " + player->status().to_string() + ".\r\n");
-		return false;
-	}
 	if (!player->has_access(command))	{
 		player->message("Pogj fharb rotsu?.\r\n");
 		return false;
 	}
+	if (!player->can_execute(command))	{
+		player->message("You can't do that while " + player->status().to_string() + ".\r\n");
+		return false;
+	}
+	
 	//should check player related abilities, race, etc
 	command->Execute(player, verb, args);
 	return true;
