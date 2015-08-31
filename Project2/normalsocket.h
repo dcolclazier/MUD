@@ -6,7 +6,9 @@
 class NormalSocket;
 class Player;
 
-class InputHandle
+// 
+
+class InputHandle 
 {
 protected:
 	NormalSocket* _socket;

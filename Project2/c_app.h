@@ -1,9 +1,9 @@
 #pragma once
 #include <Windows.h>
+#include "timer.h"
 #include <string>
 
-#define SM_WINSOCK WM_USER+1
-#define WINDOW_CLASS "MUD_SRV"
+#include "defines.h"
 
 
 class CApp {

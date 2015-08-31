@@ -6,7 +6,7 @@ struct RoomID;
 
 class RoomManager {
 
-	std::map<const RoomID&, Room&> _rooms;
+	std::map<const RoomID*, Room*> _rooms;
 
 public:
 

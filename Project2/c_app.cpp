@@ -6,18 +6,6 @@
 #include <iomanip>
 #include <ccomplex>
 
-class Timer  {
-	typedef std::chrono::high_resolution_clock _clock;
-	typedef std::chrono::duration<long double, std::ratio<1> > _second;
-	std::chrono::time_point<_clock> _begin;
-public:
-	Timer() : _begin(_clock::now()) {}
-	void reset() { _begin = _clock::now(); }
-	long double elapsed() const {
-		return std::chrono::duration_cast<_second>(_clock::now() - _begin).count();
-	}
-};
-
 
 bool InitializeCommands();
 LRESULT CALLBACK CApp::GlobalWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) {
@@ -140,12 +128,14 @@ int CApp::Main(HINSTANCE hInstance, LPSTR lpCmdLine, int nCmdShow) // lol this s
 		world->logger()->write("world", "World channels initialization failed.");
 		return EXIT_FAILURE;
 	}
-	if (!world->zones().InitZones()) {
+/*	if (!world->zones()->InitZones()) {
 		world->logger()->write("world", "World zone initialization failed.");
 		return EXIT_FAILURE;
-	}
+	}*/
 
 	
+
+	//This code is super important - it binds the custom SM_WINSOCK message handler to the 
 	if (world->server()->socket()->CreateSocket(hWnd, SM_WINSOCK, MUD_LSTNPORT) == 0) {
 		world->logger()->write("network", "Server initialization failed.");
 		return EXIT_FAILURE;

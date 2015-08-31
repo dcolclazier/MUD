@@ -5,9 +5,9 @@
 bool ChannelManager::InitChannels() {
 	
 	auto serverEvents = World::world()->server()->events();
-	auto events = World::world()->events();
-	events->add_listener("PlayerLogin", std::bind(&ChannelManager::OnPlayerLogin, this,  std::placeholders::_1, std::placeholders::_2));
-	events->add_listener("PlayerLogout", std::bind(&ChannelManager::OnPlayerLogout, this, std::placeholders::_1, std::placeholders::_2));
+	auto world_events = World::world()->events();
+	world_events->add_listener("PlayerLogin", std::bind(&ChannelManager::OnPlayerLogin, this,  std::placeholders::_1, std::placeholders::_2));
+	world_events->add_listener("PlayerLogout", std::bind(&ChannelManager::OnPlayerLogout, this, std::placeholders::_1, std::placeholders::_2));
 	serverEvents.add_listener("DirtyDisconnect", std::bind(&ChannelManager::OnDirtyDisconnect, this, std::placeholders::_1, std::placeholders::_2));
 	return true;
 }
@@ -19,7 +19,7 @@ EVENT(ChannelManager::OnPlayerLogin)
 	join_channel("SYSTEM", player);
 	join_channel("GLOBAL", player);
 	join_channel("TEST", player);
-	player->message("Successfully logged in.\r\n", BOLDCYAN);
+	player->message(std::string("Successfully logged in.\r\n"), BOLDCYAN);
 	message("GLOBAL", std::string(GREEN) + player->name() + RESET + " logged in.\r\n", Info);
 }
 EVENT(ChannelManager::OnPlayerLogout) //hidden variable caller - points to object that triggered event

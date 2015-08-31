@@ -76,6 +76,7 @@
     <ClCompile Include="commandmanager.cpp" />
     <ClCompile Include="c_app.cpp" />
     <ClCompile Include="database.cpp" />
+    <ClCompile Include="Event.cpp" />
     <ClCompile Include="eventmanager.cpp" />
     <ClCompile Include="listensocket.cpp" />
     <ClCompile Include="Log.cpp" />
@@ -86,7 +87,6 @@
     <ClCompile Include="player.cpp" />
     <ClCompile Include="Room.cpp" />
     <ClCompile Include="RoomID.cpp" />
-    <ClCompile Include="RoomManager.cpp" />
     <ClCompile Include="server.cpp" />
     <ClCompile Include="socket.cpp" />
     <ClCompile Include="tinystr.cpp" />
@@ -96,9 +96,7 @@
     <ClCompile Include="userstates.cpp" />
     <ClCompile Include="utilities.cpp" />
     <ClCompile Include="world.cpp" />
-    <ClCompile Include="Zone.cpp" />
     <ClCompile Include="ZoneID.cpp" />
-    <ClCompile Include="ZoneManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="channel.h" />
@@ -108,6 +106,9 @@
     <ClInclude Include="c_app.h" />
     <ClInclude Include="database.h" />
     <ClInclude Include="defines.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="EventArgs.h" />
+    <ClInclude Include="EventContainer.h" />
     <ClInclude Include="eventmanager.h" />
     <ClInclude Include="channelmanager.h" />
     <ClInclude Include="i_secure.h" />
@@ -121,18 +122,16 @@
     <ClInclude Include="PlayerManager.h" />
     <ClInclude Include="Room.h" />
     <ClInclude Include="RoomID.h" />
-    <ClInclude Include="RoomManager.h" />
     <ClInclude Include="server.h" />
     <ClInclude Include="socket.h" />
     <ClInclude Include="status.h" />
+    <ClInclude Include="timer.h" />
     <ClInclude Include="tinystr.h" />
     <ClInclude Include="tinyxml.h" />
     <ClInclude Include="userstates.h" />
     <ClInclude Include="utilities.h" />
     <ClInclude Include="world.h" />
-    <ClInclude Include="Zone.h" />
     <ClInclude Include="ZoneID.h" />
-    <ClInclude Include="ZoneManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

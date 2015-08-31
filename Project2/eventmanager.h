@@ -5,38 +5,10 @@ event manager.
 #pragma once
 
 #include <map>
-#include <functional>
-#include <vector>
+#include "EventArgs.h"
+#include "EventContainer.h"
+#include "Event.h"
 
-
-class EventArgs {
-public:
-	virtual ~EventArgs() {}
-};
-
-typedef std::function<void(EventArgs*, void*)> EVENTFUNC;
-
-class EventContainer
-{
-public:
-	EVENTFUNC action;
-	unsigned int id;
-};
-#define EVENT(name)\
-	void name(EventArgs* args, void* caller)
-
-class Event
-{
-	int _listenerCount;
-	std::vector<EventContainer*>* _listeners;
-	
-public:
-	Event();
-	~Event();
-	void invoke(EventArgs* args, void* trigger);
-	unsigned int add(const EVENTFUNC listener);
-	bool remove(unsigned id);
-};
 
 
 

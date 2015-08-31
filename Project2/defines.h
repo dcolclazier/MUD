@@ -1,5 +1,6 @@
 #pragma once
 
+//quick access stuff
 #define LOGIN_BANNER "logo2.txt"
 #define MUD_WINDOWTITLE "CSC_160 MUD Server (v0.0)"
 #define WINDOW_CLASS "MUD_SRV"
@@ -19,7 +20,7 @@ typedef unsigned long int FLAG;
 #define RANK_GOD 1<<31
 #define RANK_ALL 4294967295
 
-
+//telnet ansi color codes
 #define RESET   "\033[0m"
 #define BLACK   "\033[30m"      /* Black */
 #define RED     "\033[31m"      /* Red */
@@ -38,3 +39,11 @@ typedef unsigned long int FLAG;
 #define BOLDCYAN    "\033[1m\033[36m"      /* Bold Cyan */
 #define BOLDWHITE   "\033[1m\033[37m"      /* Bold White */
 
+//stuff and things
+#define SM_WINSOCK WM_USER+1
+#define WINDOW_CLASS "MUD_SRV"
+
+//define to use for event actions (takes in an arbitrary class that can hold various arguments, and a pointer to 
+//whatever triggered the event
+#define EVENT(name)\
+	void name(EventArgs* args, void* caller)

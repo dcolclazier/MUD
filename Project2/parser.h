@@ -5,8 +5,7 @@
 class Player;
 class Command;
 
-class Parser
-{
+class Parser {
 public:
 	static std::vector<std::string> split(std::string& userInput, char split = ' ', int* wordCount = nullptr);
 	static std::string join(std::vector<std::basic_string<char>> parts);

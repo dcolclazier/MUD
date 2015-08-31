@@ -63,7 +63,7 @@ void Server::process_new_connection(SOCKET socket)
 	//check player socket against ban list
 	if (ip_banned(ip_address)) {
 		_logger->write("network", "Connection killed: " + ip_address + " is banned.");
-		player->message("You have been banned. Disconnecting.\r\n", BOLDRED);
+		player->message(std::string("You have been banned. Disconnecting.\r\n"), BOLDRED);
 		closesocket(socket);
 		return;
 	}
@@ -81,7 +81,7 @@ void Server::process_disconnect(SOCKET socket) {
 
 	if (player->logged_in()) {
 		_world.logger()->write("network", "Dirty disconnect detected: " + player->socket()->get_address());
-		_events.trigger_event("DirtyDisconnect", nullptr, static_cast<void*>(player));
+		_events.trigger_event("DirtyDisconnect", nullptr, player);
 		//move to link dead users - TODO
 		_playerList.erase(socket);
 	}

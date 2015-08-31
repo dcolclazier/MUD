@@ -8,7 +8,7 @@
 #include "LogManager.h"
 #include "Player.h"
 #include <string>
-#include "ZoneManager.h"
+//#include "ZoneManager.h"
 
 //This class should be responsible for managing collections of objects (users, zones etc) as well
 //as holding references to manager objects. All core functions will be kept in this class ,and tasks delegated
@@ -28,7 +28,7 @@ class World {
 	EventManager _events;
 	CommandManager _commands;
 	ChannelManager _channels;
-	ZoneManager _zones;
+	//ZoneManager _zones;
 	LogManager _logs;
 
 
@@ -47,7 +47,7 @@ public:
 	CommandManager* commands() { return &_commands; }
 	ChannelManager* channels() { return &_channels; }
 
-	ZoneManager& zones() { return _zones; }
+	//ZoneManager* zones() { return &_zones; }
 
 	static World* world() {
 		if (_instance == nullptr) _instance = new World;

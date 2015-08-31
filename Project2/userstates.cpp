@@ -41,7 +41,7 @@ void LoginState::deactivate() {
 }
 
 void LoginState::activate() {
-	_player->message("\r\nEnter Password: ");
+	_player->message(std::string("\r\nEnter Password: "));
 }
 
 void LoginState::run() {
@@ -53,7 +53,7 @@ void LoginState::run() {
 			_player->switch_state(new Connected(_player));
 			return;
 		}
-		_player->message("Password does not match - try again...\r\n");
+		_player->message(std::string("Password does not match - try again...\r\n"));
 		_player->switch_state(new LoginState(_player, _failedAttempts));
 		return;
 	}
@@ -74,12 +74,12 @@ CreateUserState::CreateUserState(Player* player, std::string userName) {
 }
 
 void CreateUserState::deactivate() {
-	_player->message("Account Created! Logged In!\r\n");
+	_player->message(std::string("Account Created! Logged In!\r\n"));
 	_world->channels()->message("NEWBIE", "Please welcome the new player, " + _player->name() + ", to the server!\r\n", Info);
 }
 
 void CreateUserState::activate() {
-	_player->message("Creating...\r\nEnter Password: ");
+	_player->message(std::string("Creating...\r\nEnter Password: "));
 	_userData = new TiXmlElement("player");
 	_userData->SetAttribute("name", _userName.c_str());
 }
@@ -88,12 +88,12 @@ void CreateUserState::run() {
 	auto input = _player->socket()->PopCommand();
 	if (!_confirming) {
 		if (input.size() < 6 || input.size() > 24) {
-			_player->message("Password should be between 7 and 24 characters in length", BOLDRED);
+			_player->message(std::string("Password should be between 7 and 24 characters in length"), BOLDRED);
 			return;
 		}
 		_userData->SetAttribute("pass", input.c_str());
 		_player->set_password(input);
-		_player->message("Confirm Password: ");
+		_player->message(std::string("Confirm Password: "));
 		_confirming = true;
 		return;
 		//bug - confirm doesn't check if the same...
@@ -105,7 +105,7 @@ void CreateUserState::run() {
 		_player->switch_state(new Authenticated(_player));
 	}
 	else  {
-		_player->message("Password does not match. Please try again.", BOLDRED);
+		_player->message(std::string("Password does not match. Please try again."), BOLDRED);
 		return;
 	}
 }
@@ -135,7 +135,7 @@ void PlayerNotFound::deactivate()
 
 void PlayerNotFound::activate()
 {
-	_player->message("That username does not exist. Would you like to create? ", BOLDBLUE);
+	_player->message(std::string("That username does not exist. Would you like to create? "), BOLDBLUE);
 }
 
 void PlayerNotFound::run()

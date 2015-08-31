@@ -15,11 +15,13 @@ class World;
 
 class Player  {
 
+
+	//why not write a component system like the event system? The general idea would be
+	//to have generic game objects, which then have a list of components turning them into whatever they are
+	//for instance, a player would get a component containing their network name, socket info, etc, and a component containing their character information once they create one... Seems pretty versatile!
+
+	//try to model it the same way - it will help you solidify what you know about how the event system works
 	std::string _password;
-
-	
-
-
 	IUserState* _currentState;
 	NormalSocket* _socket;
 	TiXmlElement* _userData;
@@ -54,7 +56,7 @@ public:
 
 	NormalSocket* socket() const { return _socket; }
 
-	void message(std::string str, const char* color = RESET) { _socket->Message(str,color); }
+	void message(std::string& str, const char* color = RESET) { _socket->Message(str,color); }
 
 	std::string name() const {
 		if (!_userData) return "";

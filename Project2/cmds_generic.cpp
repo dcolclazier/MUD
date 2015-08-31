@@ -16,7 +16,7 @@ void InitializeGenericCmds()
 void SayCommand::Execute(Player* player, std::string& verb, std::vector<std::string>& args)
 {
 	if (args.size() <= 0) {
-		player->message("Say what? \n");
+		player->message(std::string("Say what? \n"));
 		return;
 	}
 	std::stringstream sout;

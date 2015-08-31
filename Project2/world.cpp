@@ -50,11 +50,11 @@ bool World::ExecuteCommand(Player* player, std::string userInput)
 	}
 	if (command == nullptr)
 	{
-		player->message("Pogj fharb rotsu? \r\n");
+		player->message(std::string("Pogj fharb rotsu? \r\n"));
 		return false;
 	}
 	if (!player->has_access(command))	{
-		player->message("Pogj fharb rotsu?.\r\n");
+		player->message(std::string("Pogj fharb rotsu?.\r\n"));
 		return false;
 	}
 	if (!player->can_execute(command))	{
