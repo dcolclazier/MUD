@@ -11,9 +11,9 @@ You log in, and end up in some field somewhere...You control some sort of virtua
 
 Here's what works so far:
 
-You can log in (I host the server from my house) and chat. You can log things to a file... There is a concept of chat channels, and a permission system to join them... There's a framework to build a bunch of commands (the things like say, north, kill, eat, etc) that players would type in, and a framework to use events to communicate between components. Next on the list is to build the concept of components, so we don't end up in a massive nightmare of multiple dependence (more on that later) You can log in, create a user with a password, which gets saved PLAIN TEXT to an xml database... That's pretty much it so far - it's pretty bare-bones.
+You can log in (I host the server from my house) and chat. You can log things to a file... There is a concept of chat channels, and a permission system to join them... There's a framework to build a bunch of commands (the things like say, north, kill, eat, etc) that players would type in, and a framework to use events to communicate between components. Next on the list is to build the concept of components, so we don't end up with a nightmarish multiple-inheritance chain/blob(more on that later) You can log in, create a user with a password, which gets saved PLAIN TEXT to an xml database (don't tell me your bank password, please..)... That's pretty much it so far - it's pretty bare-bones.
 
-A lot of the existing code will be well out of scope for any beginnning c++ programmer, but I will be taking most of that weight of that, and I've tried my best to design the framework/game-engine such that it is easy for anyone to get involved in some capacity. 
+A lot of the existing code will be well out of scope for any beginnning c++ programmer, but I will be taking most of that weight of that, and I've tried my best to design the framework/game-engine such that the code that makes the game run is easy to write.
 
 And that's my pitch. Interested? Let me know!
 
