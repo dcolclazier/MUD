@@ -3,7 +3,7 @@
 
 So this is pretty bare, as of now; my goal with this project was to design a framework that could be expanded on by introductory programmers, and eventually be turned into a fully-fledged out multiplayer text-based video game. Back in the day, these used to be called MUD's(multi-user dungeon), and were basically the precursor to the first MMORPG.
 
-The concept is dated, yes... text-based video games havent been mainstream for close to 20 years... but if you take any modern video game and strip away the concept of shaders, textures, and other graphical components that beginning coders would probably find overly daunting, what you have left is basically what I'm proposing we create. The things one could learn about game development from a coding perspective (ai, entity systems, event-driven programming, data-driven programming, git collaboration...) working on a project like this are practically limitless! 
+The concept is dated, yes... text-based video games havent been mainstream for close to 20 years... but if you take any modern video game and strip away the concept of shaders, textures, and other graphical components that beginning coders would probably find overly daunting, what you have left is basically what I'm proposing we create. The things one could learn about game development from a coding perspective... ai, pathfinding techniques, entity/gameobject systems, event-driven programming, data-driven programming, git collaboration... the list is practically limitless! 
 
 This is the main reason I picked it as a project... that, and I've had a secret desire since I was a kid to design my own MUD... So with that said, let me talk you through the game...
 
