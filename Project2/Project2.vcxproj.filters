@@ -15,6 +15,36 @@
     <Filter Include="_Abstract">
       <UniqueIdentifier>{e5bc600f-df51-404e-b042-90c6a4d1d448}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ChannelManager">
+      <UniqueIdentifier>{209c45b5-ce81-414f-893f-c90581435817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventManager">
+      <UniqueIdentifier>{51496e61-dc35-4429-833a-bf76d8b1752d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command System">
+      <UniqueIdentifier>{48e6b1be-c9bf-4b82-bf91-46267d3da6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{9f32e090-42a6-45ae-9dde-b0773095914a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UserConnection State Machine">
+      <UniqueIdentifier>{b2352539-006e-440f-8aa9-48c3a6bdf2f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c_app %28Windows code%29">
+      <UniqueIdentifier>{be7b46a2-c0e8-4293-b842-22addb763139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client Code">
+      <UniqueIdentifier>{21eb84ff-8298-4ea9-ba5a-a64ae55e4cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server Code">
+      <UniqueIdentifier>{5027e8f9-7576-45f5-9204-ca3e7dbf3085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Statics">
+      <UniqueIdentifier>{9f25cb35-c8da-4eef-b719-4a3b3886896f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{cb3457f0-9914-4212-bc1f-ac63c8cce73b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tinyxml.h">
@@ -23,55 +53,10 @@
     <ClInclude Include="tinystr.h">
       <Filter>TinyXML</Filter>
     </ClInclude>
-    <ClInclude Include="c_app.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="cmds_generic.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="command.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="database.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="defines.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="eventmanager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="listensocket.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="normalsocket.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="parser.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="player.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="server.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="socket.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="status.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="userstates.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="utilities.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="world.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="commandmanager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="i_userstate.h">
@@ -79,21 +64,6 @@
     </ClInclude>
     <ClInclude Include="i_secure.h">
       <Filter>_Abstract</Filter>
-    </ClInclude>
-    <ClInclude Include="channel.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="channelmanager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LogManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Log.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerManager.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ZoneID.h">
       <Filter>Header Files</Filter>
@@ -107,14 +77,74 @@
     <ClInclude Include="timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Event.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="c_app.h">
+      <Filter>c_app %28Windows code%29</Filter>
     </ClInclude>
-    <ClInclude Include="EventArgs.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="channelmanager.h">
+      <Filter>ChannelManager</Filter>
+    </ClInclude>
+    <ClInclude Include="channel.h">
+      <Filter>ChannelManager</Filter>
+    </ClInclude>
+    <ClInclude Include="socket.h">
+      <Filter>Server Code</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>Server Code</Filter>
+    </ClInclude>
+    <ClInclude Include="listensocket.h">
+      <Filter>Server Code</Filter>
+    </ClInclude>
+    <ClInclude Include="eventmanager.h">
+      <Filter>EventManager</Filter>
     </ClInclude>
     <ClInclude Include="EventContainer.h">
-      <Filter>Header Files</Filter>
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventArgs.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>Command System</Filter>
+    </ClInclude>
+    <ClInclude Include="commandmanager.h">
+      <Filter>Command System</Filter>
+    </ClInclude>
+    <ClInclude Include="command.h">
+      <Filter>Command System</Filter>
+    </ClInclude>
+    <ClInclude Include="cmds_generic.h">
+      <Filter>Command System</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>_Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>Server Code</Filter>
+    </ClInclude>
+    <ClInclude Include="normalsocket.h">
+      <Filter>Client Code</Filter>
+    </ClInclude>
+    <ClInclude Include="userstates.h">
+      <Filter>UserConnection State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>_Statics</Filter>
+    </ClInclude>
+    <ClInclude Include="LogManager.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Client Code</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -130,64 +160,7 @@
     <ClCompile Include="tinyxmlparser.cpp">
       <Filter>TinyXML</Filter>
     </ClCompile>
-    <ClCompile Include="c_app.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="cmds_generic.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="command.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="database.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="eventmanager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="listensocket.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="normalsocket.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="parser.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="player.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="server.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="userstates.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="utilities.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="world.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="socket.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="commandmanager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="channel.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="channelmanager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LogManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Room.cpp">
@@ -199,8 +172,65 @@
     <ClCompile Include="RoomID.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="c_app.cpp">
+      <Filter>c_app %28Windows code%29</Filter>
+    </ClCompile>
+    <ClCompile Include="channelmanager.cpp">
+      <Filter>ChannelManager</Filter>
+    </ClCompile>
+    <ClCompile Include="channel.cpp">
+      <Filter>ChannelManager</Filter>
+    </ClCompile>
+    <ClCompile Include="listensocket.cpp">
+      <Filter>Server Code</Filter>
+    </ClCompile>
+    <ClCompile Include="server.cpp">
+      <Filter>Server Code</Filter>
+    </ClCompile>
+    <ClCompile Include="socket.cpp">
+      <Filter>Server Code</Filter>
+    </ClCompile>
+    <ClCompile Include="eventmanager.cpp">
+      <Filter>EventManager</Filter>
+    </ClCompile>
     <ClCompile Include="Event.cpp">
+      <Filter>EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="command.cpp">
+      <Filter>Command System</Filter>
+    </ClCompile>
+    <ClCompile Include="cmds_generic.cpp">
+      <Filter>Command System</Filter>
+    </ClCompile>
+    <ClCompile Include="commandmanager.cpp">
+      <Filter>Command System</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.cpp">
+      <Filter>Command System</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="normalsocket.cpp">
+      <Filter>Client Code</Filter>
+    </ClCompile>
+    <ClCompile Include="userstates.cpp">
+      <Filter>UserConnection State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="LogManager.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Client Code</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities.cpp">
+      <Filter>_Statics</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
